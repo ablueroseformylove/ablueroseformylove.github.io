@@ -1,9 +1,18 @@
 
+
 .auth {
     opacity: 0.9;
     z-index: 1000;
     display: block;
     position: fixed;
+}
+
+#redirect {
+    display: none;
+}
+
+#incorrect {
+    display: none;
 }
 
 .bluerose {
@@ -15,9 +24,14 @@
 
 }
 
+a {
+    color: white !important;
+}
+
 a:hover{
     text-decoration: none !important;
     text-underline: none !important;
+    color: white !important;
 }
 
 .seasons:hover, .bday:hover, .justforyou:hover {
