@@ -25,18 +25,21 @@
             <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
         </div>
 
-
+        <div class="col-md-12" id="adslot1_mob">
+            <img style="width: 100%; margin: auto" src={{dataSelected.mainData.strips.jetaimemob}} />
+            <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+        </div>
 
         <div class="col-md-2" id="adslot2_pc">
             <div></div>
             <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
         </div>
 
-    </div>
+        <div class="col-md-12" id="footer" ng-controller="mainController">
 
-    <div class="col-md-12" id="footer" ng-controller="mainController">
+            <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
 
-        <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+        </div>
 
     </div>
 
