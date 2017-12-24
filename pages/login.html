@@ -1,0 +1,23 @@
+
+<div class="col-md-12" id="mypage" ng-controller="mainController">
+
+    <img src={{dataSelected.mainData.general.image}} class=" bluerose" />
+    <div class=" auth" id="login">
+        <div class="panel panel-primary">
+            <div class="panel-body text-center">
+                <div class="row">
+                    <p>Username: </p>
+                    <input type='text' ng-model='user'>
+                </div>
+                <div class="row">
+                    <p>Password: </p>
+                    <input type='password' ng-model='pwd'>
+                </div>
+                <a ng-click="logId()">
+                    <p><div class="btn label-info">Take Me Inside</div></p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>

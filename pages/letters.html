@@ -1,0 +1,64 @@
+<div class="col-md-12 ng-scope" id="mypage" ng-controller="mainController">
+
+    <nav id="mykdr_nav">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#theme"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}}></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-snowflake-o"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="fa fa-spinner"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="col-md-12" id="non-nav" ng-controller="mainController">
+
+        <img src={{dataSelected.mainData.covers.letters}} class="pagebanner" />
+
+        <div class="col-md-12" id="content">
+
+            <div class="col-md-2" id="adslot1_pc" style="border: solid 2px black">
+                <div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>
+            </div>
+
+            <div class="col-md-8" id="maincontent">
+
+
+                <a ng-repeat="item in dataSelected.mainData.letters.list" href={{item.href}}>
+
+                    <div class="col-md-3 panelcol panel panel-default">
+                        <div class="panel-body panelcontent">
+                            <img src="{{item.pic}}" class="panelimg" alt="test"></img>
+                        </div>
+                        <div class="panel-footer">
+                            <div class="panelname">{{item.title}}</div>
+                        </div>
+                    </div>
+
+                </a>
+
+
+            </div>
+
+            <div class="col-md-2" id="adslot2_pc" style="border: solid 2px black">
+                <div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-12" id="footer" ng-controller="mainController">
+
+            <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+
+        </div>
+
+    </div>
+
+</div>

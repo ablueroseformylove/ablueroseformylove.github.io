@@ -1,0 +1,148 @@
+
+<div class="col-md-12" id="mypage" ng-controller="mainController">
+
+    <nav id="mykdr_nav" style="background: rgba(020,020,020, 0.05) !important; border-bottom: none !important; ">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#theme"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}} /></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-snowflake-o"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="fa fa-spinner"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+    <div class="col-md-12" id="theme-non-nav">
+
+        <div id="myCarouselPortrait" class="mob carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarouselPortrait" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarouselPortrait" data-slide-to="1"></li>
+                <li data-target="#myCarouselPortrait" data-slide-to="2"></li>
+                <li data-target="#myCarouselPortrait" data-slide-to="3"></li>
+                <li data-target="#myCarouselPortrait" data-slide-to="4"></li>
+                <li data-target="#myCarouselPortrait" data-slide-to="5"></li>
+                <li data-target="#myCarouselPortrait" data-slide-to="6"></li>
+                <li data-target="#myCarouselPortrait" data-slide-to="7"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img class="bannermob" src={{dataSelected.mainData.theme.portrait.pic1}} alt={{dataSelected.mainData.theme.portrait.pic1alt}}>
+                </div>
+
+                <div class="item">
+                    <img class="bannermob" src={{dataSelected.mainData.theme.portrait.pic2}} alt={{dataSelected.mainData.theme.portrait.pic2alt}}>
+                </div>
+
+                <div class="item">
+                    <img class="bannermob" src={{dataSelected.mainData.theme.portrait.pic3}} alt={{dataSelected.mainData.theme.portrait.pic3alt}}>
+                </div>
+
+                <div class="item">
+                    <img class="bannermob" src={{dataSelected.mainData.theme.portrait.pic4}} alt={{dataSelected.mainData.theme.portrait.pic4alt}}>
+                </div>
+
+                <div class="item">
+                    <img class="bannermob" src={{dataSelected.mainData.theme.portrait.pic5}} alt={{dataSelected.mainData.theme.portrait.pic5alt}}>
+                </div>
+
+                <div class="item">
+                    <img class="bannermob" src={{dataSelected.mainData.theme.portrait.pic6}} alt={{dataSelected.mainData.theme.portrait.pic6alt}}>
+                </div>
+
+                <div class="item">
+                    <img class="bannermob" src={{dataSelected.mainData.theme.portrait.pic7}} alt={{dataSelected.mainData.theme.portrait.pic7alt}}>
+                </div>
+
+                <div class="item">
+                    <img class="bannermob" src={{dataSelected.mainData.theme.portrait.pic8}} alt={{dataSelected.mainData.theme.portrait.pic8alt}}>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="myCarouselLandscape" class="pc carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarouselLandscape" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarouselLandscape" data-slide-to="1"></li>
+                <li data-target="#myCarouselLandscape" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img class="bannerpc" src={{dataSelected.mainData.theme.landscape.pic1}} alt={{dataSelected.mainData.theme.landscape.pic1alt}}>
+                </div>
+
+                <div class="item">
+                    <img class="bannerpc" src={{dataSelected.mainData.theme.landscape.pic2}} alt={{dataSelected.mainData.theme.landscape.pic2alt}}>
+                </div>
+
+                <div class="item">
+                    <img class="bannerpc" src={{dataSelected.mainData.theme.landscape.pic3}} alt={{dataSelected.mainData.theme.landscape.pic3alt}}>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-12 menulove">
+
+            <a href="#bday">
+                <div class="col-md-12 bday">
+                    <div>{{dataSelected.mainData.menu.bday}}</div>
+                </div>
+            </a>
+
+            <a href="#letters">
+                <div class="col-md-3 seasons letters">
+                    <p class="centered">{{dataSelected.mainData.menu.letters}}</p>
+                </div>
+            </a>
+
+            <a href="#poetry">
+                <div class="col-md-3 seasons poetry">
+                    <p class="centered">{{dataSelected.mainData.menu.poetry}}</p>
+                </div>
+            </a>
+
+            <a href="#dreams">
+                <div class="col-md-3 seasons dreams">
+                    <p class="centered">{{dataSelected.mainData.menu.dreams}}</p>
+                </div>
+            </a>
+
+            <a href="#playlist">
+                <div class="col-md-3 seasons playlist">
+                    <p class="centered">{{dataSelected.mainData.menu.playlist}}</p>
+                </div>
+            </a>
+
+            <a href="#justforyou">
+                <div class="col-md-12 justforyou">
+                    <div class="centered">{{dataSelected.mainData.menu.justforyou}}</div>
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-12" id="footer" ng-controller="mainController">
+
+        <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+
+    </div>
+
+</div>
