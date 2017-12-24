@@ -95,7 +95,7 @@ a:hover{
         text-align: center;
         line-height: 6vh;
         padding: 1vh 10% 1vh 25%;
-        font-size: 10vw;
+        font-size: 8vw;
         font-family: "Segoe UI Semibold";
         color: #f1f1f1;
         border-radius: 1vw;
@@ -107,7 +107,7 @@ a:hover{
         display: block;
         z-index: 11;
         border-top: 1px solid transparent;
-        font-size: 12vw;
+        font-size: 8vw;
         color: #f1f1f1;
         line-height: 12vh;
         font-family: "Segoe UI Semibold";
@@ -152,7 +152,7 @@ a:hover{
         text-align: center;
         z-index: 11;
         border-top: 1px solid transparent;
-        font-size: 12vw;
+        font-size: 8vw;
         color: #f1f1f1;
         line-height: 12vh;
         font-family: "Segoe UI Semibold";
@@ -221,7 +221,7 @@ a:hover{
             text-align: center;
             line-height: 14vh;
             padding: 1vh 15% 1vh 15%;
-            font-size: 8vh;
+            font-size: 6vh;
             font-family: "Segoe UI Semibold";
             color: #f1f1f1;
             border-radius: 1vh;
@@ -233,7 +233,7 @@ a:hover{
             display: inline-block;
             z-index: 11;
             border-top: 1px solid transparent;
-            font-size: 8vh;
+            font-size: 6vh;
             color: #f1f1f1;
             line-height: 14vh;
             font-family: "Segoe UI Semibold";
@@ -282,7 +282,7 @@ a:hover{
             height: 14vh;
             z-index: 11;
             border-top: 1px solid transparent;
-            font-size: 8vh;
+            font-size: 6vh;
             color: #f1f1f1;
             line-height: 14vh;
             padding: 4% 4% 4% 4%;
