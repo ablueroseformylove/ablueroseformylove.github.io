@@ -19,10 +19,10 @@ bluerose.config(function($routeProvider) {
         })
 
         // route for the incorrect page
-        .when('/incorrect', {
-            title : "Incorrect Credentials",
+        .when('/getin', {
+            title : "Are You Ready ???",
             description : "",
-            templateUrl : 'pages/incorrect.html',
+            templateUrl : 'pages/getin.html',
             controller  : 'mainController'
         })
 
@@ -36,7 +36,7 @@ bluerose.config(function($routeProvider) {
 
         // route for the redirect page
         .when('/redirect', {
-            title : "Checking...",
+            title : "Loading...",
             description : "",
             templateUrl : 'pages/redirect.html',
             controller  : 'mainController'
@@ -431,23 +431,29 @@ bluerose.controller('mainController', function($rootScope, $scope) {
         if(c===$rootScope.credentials) {
 
         $rootScope.valid = true;
-        alert($rootScope.valid);
+        // alert($rootScope.valid);
 
-            $window.location.href = '/pages/theme.html';
+            var x= document.getElementById("redirect");
+            x.style.display="block";
+        }
+        else {
 
-        } else {
+            $rootScope.valid = false;
+            // alert($rootScope.valid);
 
-        $rootScope.valid = false;
-        alert($rootScope.valid);
-
-        $window.location.href = '/pages/incorrect.html';
-
+            var z= document.getElementById("login");
+            z.style.display="none";
+            var x= document.getElementById("incorrect");
+            x.style.display="block";
         }
     };
 
     $rootScope.tryAgain = function() {
 
-        $window.location.href = '/pages/login.html';
+        var z= document.getElementById("incorrect");
+        z.style.display="none";
+        var x= document.getElementById("login");
+        x.style.display="block";
     };
 
 
