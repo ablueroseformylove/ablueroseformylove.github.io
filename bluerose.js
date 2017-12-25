@@ -111,7 +111,7 @@ bluerose.run(['$rootScope', '$route', function($rootScope, $route) {
 
         general: {
             author: "krish",
-            url: "http://www.mykoduvayur.in",
+            url: "http://www.ablueroseformylove.github.io",
             logo: "./images/mylogo.png",
             image: "./images/blue.png",
             lastupdated: "30 September 2017"
@@ -151,6 +151,11 @@ bluerose.run(['$rootScope', '$route', function($rootScope, $route) {
                 pic2alt: "My love",
                 pic3alt: "je taime"
             }
+        },
+        overlay: {
+            title: "",
+            pic: "",
+
         },
         covers: {
             letters: "./images/covers/letters.jpg",
