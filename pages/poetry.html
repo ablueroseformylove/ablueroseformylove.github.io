@@ -25,16 +25,20 @@
             <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
         </div>
 
-        <a ng-repeat="item in dataSelected.mainData.poetry.list" href={{item.href}}>
+        <div class="col-md-8" id="maincontent">
 
-            <div class="col-md-3 panelcol panel panel-default">
-                <div class="panel-body panelcontent">
-                    <img src="{{item.pic}}" class="panelimg" alt="test"></img>
-                </div>
-                <div class="panel-footer panelname">{{item.title}}</div>
+            <div class="col-md-12">
+                <h1 style="text-align: center;border-bottom: none; color:red" >THE VERSES OF LOVE</h1>
+                <p>We pour our hearts out when we miss each other.. And it has a beautiful rhythm at times that makes it a heartfelt poem.. Poetry is beautiful when synced with love.. It will feel lovely everytime we go through them...</p>
             </div>
 
-        </a>
+            <div class="col-md-12" id="adslot1_mob">
+                <img style="width: 100%; margin: auto" src={{dataSelected.mainData.strips.jetaimemob}} />
+                <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+            </div>
+
+        </div>
+
 
         <div class="col-md-2" id="adslot2_pc">
             <div></div>
