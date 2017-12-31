@@ -1,0 +1,87 @@
+
+<div class="col-md-12 ng-scope" id="mypage" ng-controller="mainController">
+
+    <nav id="mykdr_nav">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#theme"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}}></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-snowflake-o"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="fa fa-spinner"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="col-md-12" id="non-nav" ng-controller="mainController">
+
+        <img src="./images/poetry/cover/8.jpg" class="pagebanner" />
+
+        <div class="col-md-12" id="content">
+
+            <div class="col-md-2" id="adslot1_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+            <div class="col-md-8" id="maincontent">
+
+                <div class="col-md-12">
+                    <h1 style="text-align: center;border-bottom: none; color:darkred" >YOU ARE WORTH</h1>
+                    <br />
+                    <p>You're worth every word i write...</p>
+                    <p>You're worth every night i stay...</p>
+                    <p>You're worth every minute i wait...</p>
+                    <p>You're worth every tear i shed...</p>
+                    <p>You're worth every task i skip...</p>
+                    <p>You're worth every sweat i shed...</p>
+                    <p>You're worth every mile i leap...</p>
+                    <p>You're worth every time i risk...</p>
+                    <p>You're worth every wish i dream...</p>
+                    <p>You're worth every song i keep...</p>
+                    <p>You're worth every show i miss...</p>
+                    <p>You're worth every kiss i give...</p>
+                    <p>You're worth every goal i twist...</p>
+                    <p>You're worth every love you feel...</p>
+                    <p>You're worth every thing i do...</p>
+                    <p>You're worth all this and more...</p>
+                    <p>And your worth never gets sore...</p>
+                    <br />
+                    <p>I love you chianna...❤❤❤</p>
+                    <br />
+                    <p>Mail me when you wanna talk..</p>
+                    <p>I ll be there.. miss you...</p>
+                    <br />
+                    <p>All the very best to you hon..</p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-12" id="adslot1_mob">
+                <img style="width: 100%; margin: auto" src={{dataSelected.mainData.strips.jetaimemob}} />
+                <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+            </div>
+
+            <div class="col-md-2" id="adslot2_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-12" id="footer" ng-controller="mainController">
+
+            <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,94 @@
+<div class="col-md-12 ng-scope" id="mypage" ng-controller="mainController">
+
+    <nav id="mykdr_nav">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#theme"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}}></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-snowflake-o"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="fa fa-spinner"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="col-md-12" id="non-nav" ng-controller="mainController">
+
+        <img src="./images/poetry/cover/1.jpg" class="pagebanner" />
+
+        <div class="col-md-12" id="content">
+
+            <div class="col-md-2" id="adslot1_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+            <div class="col-md-8" id="maincontent">
+
+                <div class="col-md-12">
+                    <h1 style="text-align: center;border-bottom: none; color:darkred" >HOW I WISH</h1>
+                    <br />
+                    <p>How i wish i could take you out every day and come back at late midnight...</p>
+                    <p>How i wish i could see you smile and just laugh it out under the candle light...</p>
+                    <p>How i wish i could wake you up with hot coffee and kiss every morning light...</p>
+                    <p>How i wish i could lie awake with you in the ground on a starry night...</p>
+                    <br />
+                    <p>How i wish i could dive with you into the chilling cold of the swimming pool...</p>
+                    <p>How i wish i could make you moan with the magic of every teasing tool...</p>
+                    <p>How i wish i could hug you tight on a snowy night with my thickly wool...</p>
+                    <p>How i wish i could look at you... and just smile at you like a stupid fool....</p>
+                    <br />
+                    <p>How i wish i could grab you up from your back at once when you be the cook...</p>
+                    <p>How i wish i could look at you and say 'all is well' when youre scared and shook...</p>
+                    <p>How i wish i could melt to ground... with nothing else but your just one look...</p>
+                    <p>How i wish i could read you out every single word from your favoured book...</p>
+                    <br />
+                    <p>How i wish we could walk along the beach holding hands with smiles on our face....</p>
+                    <p>How i wish I could buy you flowers as fresh and sweet as you for your one big vase.....</p>
+                    <br />
+                    <p>How i wish i could be your side when you vroom around on your pacing car...</p>
+                    <p>How i wish i could make you ride my bike in the sunset breeze long and far...</p>
+                    <p>How i wish i could look at them... as you point and name your loving star...</p>
+                    <p>How i wish i could let you know how much love i got for just who you are...</p>
+                    <br />
+                    <p>How I wish I could cuddle with you in the soothing chill of the morning dawn....</p>
+                    <p>How i wish we could hug and hide inside the thick blanket from the rays of the sun....</p>
+                    <p>All these wishes stay heavy and hard in my lonely heart as i m sinking down...</p>
+                    <p>I cant help but just make you read all these even when i know you will frown...</p>
+                    <p>The only memories that i ll take with me will be our little zein and your lovely crown...</p>
+                    <p>All i am... and all i will be.. was made by love.. and your mind that strong..</p>
+                    <br />
+                    <p>I love you chianna.. like i ll never love anyone else...</p>
+
+                </div>
+
+                <div class="col-md-12" id="adslot1_mob">
+                    <img style="width: 100%; margin: auto" src={{dataSelected.mainData.strips.jetaimemob}} />
+                    <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+                </div>
+
+
+            </div>
+
+            <div class="col-md-2" id="adslot2_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-12" id="footer" ng-controller="mainController">
+
+            <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+
+        </div>
+
+    </div>
+
+</div>

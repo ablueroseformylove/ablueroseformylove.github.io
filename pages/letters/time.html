@@ -1,0 +1,66 @@
+<div class="col-md-12 ng-scope" id="mypage" ng-controller="mainController">
+
+    <nav id="mykdr_nav">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#theme"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}}></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-snowflake-o"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="fa fa-spinner"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="col-md-12" id="non-nav" ng-controller="mainController">
+
+        <img src="./images/letters/cover/29.jpg" class="pagebanner" />
+
+        <div class="col-md-12" id="content">
+
+            <div class="col-md-2" id="adslot1_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+            <div class="col-md-8" id="maincontent">
+
+                <div class="col-md-12">
+                    <h1 style="text-align: center;border-bottom: none; color:darkred" >TIME</h1>
+                    <br />
+                    <p>Hon..</p>
+                    <p>When you say you ll be here at this time.. And you dont come then or a while after that.. i start to worry.. and after that.. each passing minute is a pain.. So please let me know if you got busy with something or if you ll be late.. coz waiting on the other side without knowing a thing about your side is painful.. Please do that bit of kindness for me love..</p>
+                    <p>Please be okay.. I love you ❤ </p>
+                    <p>Babe.. I dont know whats taking you long.. I want you to know that i m here for you anytime you want... Anytime you feel alone.. anytime you want to talk to someone.. Im here for you.. I love you.. Please let me know what is going on... This is hard for me to imagine.. So please enlighten me of whatever it is.. I will understand once you mention about it.. So please reply me.. At least for once.. </p>
+                    <p>I love you.. And im always here for you... ❤ </p>
+                </div>
+
+            </div>
+
+            <div class="col-md-12" id="adslot1_mob">
+                <img style="width: 100%; margin: auto" src={{dataSelected.mainData.strips.jetaimemob}} />
+                <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+            </div>
+
+            <div class="col-md-2" id="adslot2_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-12" id="footer" ng-controller="mainController">
+
+            <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,71 @@
+<div class="col-md-12 ng-scope" id="mypage" ng-controller="mainController">
+
+    <nav id="mykdr_nav">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#theme"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}}></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-snowflake-o"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="fa fa-spinner"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="col-md-12" id="non-nav" ng-controller="mainController">
+
+        <img src="./images/poetry/cover/2.jpg" class="pagebanner" />
+
+        <div class="col-md-12" id="content">
+
+            <div class="col-md-2" id="adslot1_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+            <div class="col-md-8" id="maincontent">
+
+                <div class="col-md-12">
+                    <h1 style="text-align: center;border-bottom: none; color:darkred" >MY FAVORITE FLOWER</h1>
+                    <br />
+                    <p>Her name is Tulips she's so rare</p>
+                    <p>She's like a world of fairytale</p>
+                    <p>She's so colorful like the sky</p>
+                    <p>I see them every time I pass by</p>
+                    <p>I'm not really good at poems</p>
+                    <p>Not like you,</p>
+                    <p>you're good when you compose them</p>
+                    <p>She'll stay as my favorite flower</p>
+                    <p>Like my favorite whiskey sour</p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-12" id="adslot1_mob">
+                <img style="width: 100%; margin: auto" src={{dataSelected.mainData.strips.jetaimemob}} />
+                <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+            </div>
+
+            <div class="col-md-2" id="adslot2_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-12" id="footer" ng-controller="mainController">
+
+            <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+
+        </div>
+
+    </div>
+
+</div>

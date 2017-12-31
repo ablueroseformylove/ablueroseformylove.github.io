@@ -1,0 +1,69 @@
+<div class="col-md-12 ng-scope" id="mypage" ng-controller="mainController">
+
+    <nav id="mykdr_nav">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#theme"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}}></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-snowflake-o"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="fa fa-spinner"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="col-md-12" id="non-nav" ng-controller="mainController">
+
+        <img src="./images/letters/cover/8.jpg" class="pagebanner" />
+
+        <div class="col-md-12" id="content">
+
+            <div class="col-md-2" id="adslot1_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+            <div class="col-md-8" id="maincontent">
+
+                <div class="col-md-12">
+                    <h1 style="text-align: center;border-bottom: none; color:darkred" >THE HEALTH FACTOR</h1>
+                    <br />
+                    <p>Chianna.. i want to know who you are.. it will kill me if i don't.. Please don't kill me.. i want to know.. Everyday i m dying to know.. </p>
+                    <p>Chianna... i love you... </p>
+                    <p>Wish you a good healthy morning my love..❤❤❤ Whenever you wake up and want to talk... mail me.. i ll be there... Love you.. ❤</p>
+                    <p>It says its just a side effect of the medicine okay.. don't worry.... Dysopyramide and metropholol it says.. You ll get tired fast.. and bleed sometimes from nose.. also spit blood at times. Its normal okay.. nothin serious.. medicine works okay.. don't worry.. Keep smiling.. im  here for ya.. just mail me.. ☺☺☺</p>
+                    <p>Its just coz of some dry nose and all... drink water.. use some nasal sprays to keep it wet it says.. don't worry okay...  ☺☺☺ Smile for me please...</p>
+                    <p> Babe you must talk to me okay.. its important for you.. and more importantly for me.. </p>
+                    <p>I don't wanna let go  of my miss universe ...</p>
+                    <p>I love you Chianna ❤</p>
+                </div>
+
+            </div>
+
+            <div class="col-md-12" id="adslot1_mob">
+                <img style="width: 100%; margin: auto" src={{dataSelected.mainData.strips.jetaimemob}} />
+                <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+            </div>
+
+            <div class="col-md-2" id="adslot2_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-12" id="footer" ng-controller="mainController">
+
+            <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+
+        </div>
+
+    </div>
+
+</div>

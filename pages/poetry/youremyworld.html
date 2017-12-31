@@ -1,0 +1,89 @@
+<div class="col-md-12 ng-scope" id="mypage" ng-controller="mainController">
+
+    <nav id="mykdr_nav">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#theme"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}}></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-snowflake-o"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="fa fa-spinner"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="col-md-12" id="non-nav" ng-controller="mainController">
+
+        <img src="./images/poetry/cover/4.jpg" class="pagebanner" />
+
+        <div class="col-md-12" id="content">
+
+            <div class="col-md-2" id="adslot1_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+            <div class="col-md-8" id="maincontent">
+
+                <div class="col-md-12">
+                    <h1 style="text-align: center;border-bottom: none; color:darkred" >YOU'RE MY WORLD</h1>
+                    <br />
+                    <p>Your name is the one that makes me go all crazy.....</p>
+                    <p>Your words are the ones that stop me from being lazy...</p>
+                    <p>Your love takes me to a dream world of fantasy...</p>
+                    <p>And you stole my heart like that just so so easy...</p>
+                    <br />
+                    <p>Your voice is the one that there is that all i want to hear...</p>
+                    <p>You fight me out from everything that i fear...</p>
+                    <p>You always get me running even if i tire...</p>
+                    <p>And you set my whole heart blazing with all your fire...</p>
+                    <br />
+                    <p>Coz You...... You are my world..</p>
+                    <p>Youre all i love.. And Nothings ever more special... (2)</p>
+                    <br />
+                    <p>We just found each other amongst all hopelessness...</p>
+                    <p>We just saved each other from all of that sadness...</p>
+                    <p>We together lit our lives with all new brightness...</p>
+                    <p>And i want us to be there always in this big life s mess...</p>
+                    <br />
+                    <p>I dont wanna get you into any big drama...</p>
+                    <p>I dont wanna make you go to another trauma...</p>
+                    <p>I just wanna tell you that this whole thing s real...</p>
+                    <p>And all i need you to do is to trust this zeal...</p>
+                    <br />
+                    <p>Coz You...... You are my world..</p>
+                    <p>Youre all i love.. And Nothings ever more special... (2)</p>
+                    <br />
+                    <p>❤❤❤</p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-12" id="adslot1_mob">
+                <img style="width: 100%; margin: auto" src={{dataSelected.mainData.strips.jetaimemob}} />
+                <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+            </div>
+
+            <div class="col-md-2" id="adslot2_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-12" id="footer" ng-controller="mainController">
+
+            <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+
+        </div>
+
+    </div>
+
+</div>

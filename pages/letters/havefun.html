@@ -1,0 +1,66 @@
+<div class="col-md-12 ng-scope" id="mypage" ng-controller="mainController">
+
+    <nav id="mykdr_nav">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#theme"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}}></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-snowflake-o"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="fa fa-spinner"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="col-md-12" id="non-nav" ng-controller="mainController">
+
+        <img src="./images/letters/cover/19.jpg" class="pagebanner" />
+
+        <div class="col-md-12" id="content">
+
+            <div class="col-md-2" id="adslot1_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+            <div class="col-md-8" id="maincontent">
+
+                <div class="col-md-12">
+                    <h1 style="text-align: center;border-bottom: none; color:darkred" >HAVE FUN</h1>
+                    <br />
+                    <p>Well babe.. I just saw the High School Musical 1.. Thanks for that.. And i just wanna say.. Have fun.. </p>
+                    <p>I'm sorry for all the stupid things i say now and then.. Of course I love you.. I miss you more.. Two such loving souls.. Separated by a 50000 miles is hard.. But life is what we make of it.. You said so.. Lets make the most of our lives and each other babe.. </p>
+                    <p>I love you.. I have a life to focus on and I will do my best on that.. But I ll find every ounce of time to spend with you and make the effort for it.. Coz you re my soulmate.. My best friend.. And my love.. And no one.. no distance.. no timezones.. or nothing else will take that away from us..</p>
+                    <p>I really hope and believe that you feel the same way.. Coz honestly.. I couldnt come to a definite conclusion to that question so far.. And you know why..  </p>
+                    <p>I love you Chianna ❤</p>
+                </div>
+
+            </div>
+
+            <div class="col-md-12" id="adslot1_mob">
+                <img style="width: 100%; margin: auto" src={{dataSelected.mainData.strips.jetaimemob}} />
+                <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+            </div>
+
+            <div class="col-md-2" id="adslot2_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-12" id="footer" ng-controller="mainController">
+
+            <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+
+        </div>
+
+    </div>
+
+</div>

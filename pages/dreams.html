@@ -20,16 +20,23 @@
 
         <img src={{dataSelected.mainData.covers.dreams}} class="pagebanner" />
 
-        <div class="col-md-2" id="adslot1_pc">
-            <div></div>
-            <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+        <div class="col-md-2" id="adslot1_pc" style=" opacity: 1; background: #136a8a;  /* fallback for old browsers */background: -webkit-linear-gradient(to left, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */background: linear-gradient(to left, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */">
+            <div style="font-size: xx-large; padding: 30vh 0 30vh 0; text-align: center; color: #fafafa; font-family: 'Segoe UI Semibold' ">
+                <p>I</p>
+                <p>LOVE</p>
+                <p>YOU</p>
+                <p>MOST</p>
+                <p>IN</p>
+                <p>THIS</p>
+                <p>WORLD</p>
+            </div>
         </div>
 
         <div class="col-md-8" id="maincontent">
 
             <div class="col-md-12">
-                <h1 style="text-align: center;border-bottom: none; color:red" >THE DREAMS FOR LIFE</h1>
-                <p>Our Love Story is a unique and most beautiful one.. The most beautiful thing about us is that connection we feel at times and the dreams.. The most lovely romantic dreams that we get makes us want to be together more and more.. It makes us hope and yearn for that lovely happy long life together.. And they gave us a good idea for a set of things to do when we get together.. I Love You Honey.. Lets see those beautiful glimpses of love again..</p>
+                <h1 style="text-align: center;border-bottom: none; color:darkred" >THE DREAMS FOR LIFE</h1>
+                <p style="padding: 2%">Our Love Story is a unique and most beautiful one.. The most beautiful thing about us is that connection we feel at times and the dreams.. The most lovely romantic dreams that we get makes us want to be together more and more.. It makes us hope and yearn for that lovely happy long life together.. And they gave us a good idea for a set of things to do when we get together.. I Love You Honey.. Lets see those beautiful glimpses of love again..</p>
             </div>
 
             <div class="col-md-12" id="adslot1_mob">
@@ -37,23 +44,29 @@
                 <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
             </div>
 
-            <!--<a ng-repeat="item in dataSelected.mainData.dreams.list" href={{item.href}}>-->
+            <a ng-repeat="item in dataSelected.mainData.dreams.list" href={{item.href}}>
 
-                <!--<div class="col-md-3 panelcol panel panel-default">-->
-                    <!--<div class="panel-body panelcontent">-->
-                        <!--<img src="{{item.pic}}" class="panelimg" alt="test"></img>-->
-                    <!--</div>-->
-                    <!--<div class="panel-footer panelname">{{item.title}}</div>-->
-                <!--</div>-->
+                <div class="col-md-3 panelcol panel panel-default">
+                    <div class="panel-body panelcontent">
+                        <img src="{{item.pic}}" class="panelimg" alt="test"></img>
+                    </div>
+                    <div class="panel-footer panelname">{{item.title}}</div>
+                </div>
 
-            <!--</a>-->
-
+            </a>
 
         </div>
 
-        <div class="col-md-2" id="adslot2_pc">
-            <div></div>
-            <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+        <div class="col-md-2" id="adslot2_pc" style=" opacity: 1; background: #136a8a;  /* fallback for old browsers */background: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */">
+            <div style="font-size: xx-large; padding: 30vh 0 30vh 0; text-align: center; color: #fafafa; font-family: 'Segoe UI Semibold' ">
+                <p>*</p>
+                <p>YOU</p>
+                <p>ARE</p>
+                <p>MY</p>
+                <p>EVERY</p>
+                <p>THING</p>
+                <p>*</p>
+            </div>
         </div>
 
         <div class="col-md-12" id="footer" ng-controller="mainController">

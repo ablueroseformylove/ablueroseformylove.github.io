@@ -1,0 +1,69 @@
+<div class="col-md-12 ng-scope" id="mypage" ng-controller="mainController">
+
+    <nav id="mykdr_nav">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#theme"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}}></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-snowflake-o"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="fa fa-spinner"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="col-md-12" id="non-nav" ng-controller="mainController">
+
+        <img src="./images/letters/cover/21.jpg" class="pagebanner" />
+
+        <div class="col-md-12" id="content">
+
+            <div class="col-md-2" id="adslot1_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+            <div class="col-md-8" id="maincontent">
+
+                <div class="col-md-12">
+                    <h1 style="text-align: center;border-bottom: none; color:darkred" >MIRACLES</h1>
+                    <br />
+                    <p>Chianna... </p>
+                    <p>Apart from all the places.. cultures.. religions.. family.. profession.. material things.. names and everything that is used by us to represent ourselves.. Apart from the body that we physically represent.. We are all but souls.. Everyone here are walking souls with all these things they cover themselves up with.. </p>
+                    <p>And i am here with you.. and will be here with you always.. because... Our souls are the closest to each other.. We are soulmates.. And i love you for who you are.. not what you represent.. But i want to know you.. Its not too much of an ask.. Its just a request of the one who loves you most in this world now.. </p>
+                    <p>You dont worry about anything Chianna.. You will win.. You will live.. Miracles happen everyday somewhere in this world.. And the power of true love and self-belief is unparallel to any other.. Believe in yourself.. and believe in my love.. Im always there for you Chianna.. Nothing else matters.. I love you.. Take care.. </p>
+                    <p>Even if you have lied to me a lot.. and hidden a lot of things from me.. If i was there near your place representing similar riches.. same religion (doesnt matter much)..  and if i had a chance of meeting you even before knowing you.. i would have courted you eventually.. we wouldav been best friends.. soulmates ( we still are).. i wouldav never let you down and never will.. i wouldav proposed you and married you.. And it wouldav been happily ever after.. </p>
+                    <p>But thats another story.. Now.. Im happy to have met you.. and I love you.. And our lives are better now that we have each other on it.. And this.. will never change.. And i will love, believe and hope for the best</p>
+                    <p>I love you my love..</p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-12" id="adslot1_mob">
+                <img style="width: 100%; margin: auto" src={{dataSelected.mainData.strips.jetaimemob}} />
+                <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+            </div>
+
+            <div class="col-md-2" id="adslot2_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-12" id="footer" ng-controller="mainController">
+
+            <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+
+        </div>
+
+    </div>
+
+</div>

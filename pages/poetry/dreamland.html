@@ -1,0 +1,97 @@
+<div class="col-md-12 ng-scope" id="mypage" ng-controller="mainController">
+
+    <nav id="mykdr_nav">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#theme"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}}></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-snowflake-o"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="fa fa-spinner"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="col-md-12" id="non-nav" ng-controller="mainController">
+
+        <img src="./images/poetry/cover/5.jpg" class="pagebanner" />
+
+        <div class="col-md-12" id="content">
+
+            <div class="col-md-2" id="adslot1_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+            <div class="col-md-8" id="maincontent">
+
+                <div class="col-md-12">
+                    <h1 style="text-align: center;border-bottom: none; color:darkred" >DREAMLAND</h1>
+                    <br />
+                    <p>I could take you to my dreamland...</p>
+                    <p>Where we would be holding hand to hand...</p>
+                    <br />
+                    <p>Walking on together in the long road...</p>
+                    <p>Where there is no one coming to hurt our code...</p>
+                    <br />
+                    <p>Sun and winds and rains and snow pass by...</p>
+                    <p>And still we stick together like pastry and pie...</p>
+                    <br />
+                    <p>The ever lovely fragrance of those tulips...</p>
+                    <p>Makes us want to bond each others drying lips...</p>
+                    <br />
+                    <p>The day paves its way to the evening breeze...</p>
+                    <p>As we calmly reach the sandy shores of the seas...</p>
+                    <br />
+                    <p>However bad and hard our road gets...</p>
+                    <p>We always smile and glide until the sun sets...</p>
+                    <br />
+                    <p>We hold and lie together gazing the stars...</p>
+                    <p>In the nights when they are bright and sparse...</p>
+                    <br />
+                    <p>Nothing else will matter in this world...</p>
+                    <p>When we hug and kiss with our bodies curled...</p>
+                    <br />
+                    <p>Our smiles and laughs will light up our lives...</p>
+                    <p>And all this will never fade till we close our eyes...</p>
+                    <br />
+                    <p>Love is the only thing there is to live for...</p>
+                    <p>Those who give and get it are lucky to the core...</p>
+                    <br />
+                    <p>I miss you a lot sweetheart...</p>
+                    <br />
+                    <p>I love you most in this world....</p>
+                    <br />
+                    <p>I love you My Love...❤</p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-12" id="adslot1_mob">
+                <img style="width: 100%; margin: auto" src={{dataSelected.mainData.strips.jetaimemob}} />
+                <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+            </div>
+
+            <div class="col-md-2" id="adslot2_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-12" id="footer" ng-controller="mainController">
+
+            <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+
+        </div>
+
+    </div>
+
+</div>

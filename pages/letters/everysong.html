@@ -1,0 +1,77 @@
+<div class="col-md-12 ng-scope" id="mypage" ng-controller="mainController">
+
+    <nav id="mykdr_nav">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#theme"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}}></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-snowflake-o"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="fa fa-spinner"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="col-md-12" id="non-nav" ng-controller="mainController">
+
+        <img src="./images/letters/cover/2.jpg" class="pagebanner" />
+
+        <div class="col-md-12" id="content">
+
+            <div class="col-md-2" id="adslot1_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+            <div class="col-md-8" id="maincontent">
+
+                <div class="col-md-12">
+                    <h1 style="text-align: center;border-bottom: none; color:darkred" >EVERY SONG</h1>
+                    <br />
+                    <p>Every song i hear.. every melody.. i feel you sitting beside me.. heads to my shoulders.. with closed eyes.. blankly smiling.. feeling the soothing voice and the mild rhythm.. I feel it.. close my eyes.. and just weakly smile... Its beautiful.. and as the song ends.. i realise.. I m a hopeless romantic.. And i love you.. And i cant do anything about it..</p>
+                    <p>I feel like jack dawson chianna.. Mad in love with you my rose.. In the sinking titanic.. just for a few days.. before i drown to the abyss of this world.. I love you chianna...</p>
+                    <p>Every night in my dreams, I see you, I feel you, That is how I know you go on..</p>
+                    <p>Far across the distance And spaces between us, You have come to show you go on..</p>
+                    <p>Near, far, wherever you are.. I believe that the heart does go on..</p>
+                    <p>Once more you open the door, And you're here in my heart.. And my heart will go on and on..</p>
+                    <p>Love can touch us one time, And last for a lifetime, And never let go till we're one..</p>
+                    <p>Love is when I love you, One true time I hold to, In my life we'll always go on..</p>
+                    <p>Near, far, wherever you are, I believe that the heart does go on..</p>
+                    <p>Once more you open the door, And you're here in my heart, And my heart will go on and on..</p>
+                    <p>There is some love that will not go away, You're here, there's nothing I fear, And I know that my heart will go on..</p>
+                    <p>We'll stay forever this way, You are safe in my heart, And my heart will go on and on..</p>
+                    <p>And these tears which fall from my eyes say what you are to me.. wherever you are.. I love you my love...</p>
+                    <p>And you re the only one in this world i can tell about this to...</p>
+                    <br />
+                    <p>I love you Chianna..❤</p>
+                </div>
+
+            </div>
+
+            <div class="col-md-12" id="adslot1_mob">
+                <img style="width: 100%; margin: auto" src={{dataSelected.mainData.strips.jetaimemob}} />
+                <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+            </div>
+
+            <div class="col-md-2" id="adslot2_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-12" id="footer" ng-controller="mainController">
+
+            <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+
+        </div>
+
+    </div>
+
+</div>

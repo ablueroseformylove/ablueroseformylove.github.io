@@ -1,0 +1,67 @@
+<div class="col-md-12 ng-scope" id="mypage" ng-controller="mainController">
+
+    <nav id="mykdr_nav">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#theme"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}}></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-snowflake-o"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="fa fa-spinner"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="col-md-12" id="non-nav" ng-controller="mainController">
+
+        <img src="./images/letters/cover/38.jpg" class="pagebanner" />
+
+        <div class="col-md-12" id="content">
+
+            <div class="col-md-2" id="adslot1_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+            <div class="col-md-8" id="maincontent">
+
+                <div class="col-md-12">
+                    <h1 style="text-align: center;border-bottom: none; color:darkred" >HAPPIEST B'DAY TO YOU</h1>
+                    <br />
+                    <p>Hahahaha I’m not good at drawings but. </p>
+                    <p>Happiest birthday to you hon! Thank you for being the best love in the world. I wish you all the best things in life and good health. Always remember I’m always here for you. I won’t go anywhere. Always take care and smile. You know you’re so handsome. Hahaha I’m in love with you Mr. Grey! ͽ can’t help but think how handsome you are. Well, You are the most handsome for me. Έ Exams is here and you got one down! I’m so proud of you! I’ll always be here to guide you and be your best girl in the world. So keep it up and make me proud. I know you can do better. So please study well and do it. You can do it hon. I’ll be okay. No worries about me. I’m doing fine and there’s nothing to worry about. Always follow your schedule. Eat at the right time. Sleep at the right time. Dry your hair before opening the fan. Study well. Take breaks and relax as you always are. *kiss on your lips* Stay handsome and sexy. Enjoy you Birthday today! Good Morning. I love you ❤</p>
+                    <p>Your love,</p>
+                    <p>Sexy Chianna,</p>
+                    <p>I know you laughed. Hahahahaha </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-12" id="adslot1_mob">
+                <img style="width: 100%; margin: auto" src={{dataSelected.mainData.strips.jetaimemob}} />
+                <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+            </div>
+
+            <div class="col-md-2" id="adslot2_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-12" id="footer" ng-controller="mainController">
+
+            <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+
+        </div>
+
+    </div>
+
+</div>

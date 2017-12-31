@@ -1,0 +1,90 @@
+<div class="col-md-12 ng-scope" id="mypage" ng-controller="mainController">
+
+    <nav id="mykdr_nav">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#theme"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}}></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-snowflake-o"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="fa fa-spinner"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="col-md-12" id="non-nav" ng-controller="mainController">
+
+        <img src="./images/letters/cover/44.jpg" class="pagebanner" />
+
+        <div class="col-md-12" id="content">
+
+            <div class="col-md-2" id="adslot1_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+            <div class="col-md-8" id="maincontent">
+
+                <div class="col-md-12">
+                    <h1 style="text-align: center;border-bottom: none; color:darkred" >JUST REMINDING</h1>
+                    <br />
+                    <p>Honey..</p>
+                    <p>I ve not been in your situation...</p>
+                    <p>But i believe in you...</p>
+                    <p>I love you most in this world...</p>
+                    <p>I know how strong and efficient you are...</p>
+                    <p>How willing smart and capable you are...</p>
+                    <p>Do it for me my love...</p>
+                    <p>Do it for our love... our life...</p>
+                    <p>We will have the happiest of times of our lives...</p>
+                    <p>Beautiful happy times for long filled with love and joy...</p>
+                    <p>Dream of it and work on your health my love...</p>
+                    <p>No stress fear or pressures...</p>
+                    <p>Im always there for you by your side...</p>
+                    <p>Its all love peace and harmony my love...</p>
+                    <p>You will get better and better...</p>
+                    <p>I believe in you honey...</p>
+                    <p>Do it for us... You can do it...</p>
+                    <p>Just keep calm and rest and be happy...</p>
+                    <p>Be concious of your food schedule and medications...</p>
+                    <p>And dont think hard stress yourself or worry...</p>
+                    <p>And be wary of your clothing hygeine and habits...</p>
+                    <p>I know you know and will do all these honey...</p>
+                    <p>I am just mentioning and reminding...</p>
+                    <p>I love and care for you most my love...</p>
+                    <p>Always Take care...</p>
+                    <p>Your health is the most important thing in this world...</p>
+                    <p>I love you darling...</p>
+                    <p>See you.. ❤</p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-12" id="adslot1_mob">
+                <img style="width: 100%; margin: auto" src={{dataSelected.mainData.strips.jetaimemob}} />
+                <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+            </div>
+
+            <div class="col-md-2" id="adslot2_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-12" id="footer" ng-controller="mainController">
+
+            <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+
+        </div>
+
+    </div>
+
+</div>

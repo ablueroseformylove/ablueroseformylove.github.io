@@ -1,0 +1,68 @@
+<div class="col-md-12 ng-scope" id="mypage" ng-controller="mainController">
+
+    <nav id="mykdr_nav">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#theme"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}}></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-snowflake-o"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="fa fa-spinner"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="col-md-12" id="non-nav" ng-controller="mainController">
+
+        <img src="./images/letters/cover/25.jpg" class="pagebanner" />
+
+        <div class="col-md-12" id="content">
+
+            <div class="col-md-2" id="adslot1_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+            <div class="col-md-8" id="maincontent">
+
+                <div class="col-md-12">
+                    <h1 style="text-align: center;border-bottom: none; color:darkred" >BAD DAY</h1>
+                    <br />
+                    <p>Oh my love... </p>
+                    <p>I was totally desped up yesterday.. Dunno how did that happen.. Dunno what happened to you too.. You were kind of moody as well.. Hope youre okay.. I really want you not to hide things from me or lie to make me feel okay.. Coz only truths matter in the end.. </p>
+                    <p>I am here to hear you out.. Not play you or make you feel guilty.. I worry and care for you.. But thats no reason to hide things from me.. Im not a stalker too.. We are soulmates.. best friends.. And I ll never let go of you.. I decided that the first day we met.. </p>
+                    <p>I love you. Its no lie.. But we are much more than just lovers.. And I believe you know that too..I hope you feel better from now because I feel loads better.. I have to.. Because I have you with me.. And Im always there for you as you want me to be..And I always wish the very best for you in every day of life.. You are loved.. By the best lover.. You are a strong fighter.. Be happy of what you are.. Smile to show your strength.. to you and to the world..I love you My Queen.. </p>
+                    <p>You are my first love.. I love you.. And that will never ever fade from my heart for my life.. I love you Chianna ❤ I know i shouldnt have done that.. It mustve been kept to myself.. I couldnt help it.. But im not perfect you know.. I cant be that happy all times.. I try to..Im trying hard.. Its not that easy you see.. I hope you will understand sometime.. I love you Chianna.. Always.. </p>
+                    <p>Always take care Chianna.. Remember your grit.. That clenched fist and rubbing teeth grit that makes you strong.. Never give up.. You will win.. You will always keep winning those small and big battles.. Day after day.. Coz my love is always there with you.. Its smiling.. And it will help you face anything that comes to you.. It will give you more strength.. Show you more light.. even in the darkest.. And always remind you to Never Give Up.. Never Ever Give Up Chianna.. Show that burning grit with a smile.. </p>
+                    <p>I love you ❤</p>
+                </div>
+
+            </div>
+
+            <div class="col-md-12" id="adslot1_mob">
+                <img style="width: 100%; margin: auto" src={{dataSelected.mainData.strips.jetaimemob}} />
+                <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+            </div>
+
+            <div class="col-md-2" id="adslot2_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-12" id="footer" ng-controller="mainController">
+
+            <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+
+        </div>
+
+    </div>
+
+</div>

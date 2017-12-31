@@ -14,28 +14,32 @@
 
             </ul>
         </div>
+
     </nav>
 
     <div class="col-md-12" id="non-nav" ng-controller="mainController">
 
-        <img src={{dataSelected.mainData.covers.justforyou}} class="pagebanner" />
+        <img src="./images/letters/cover/1.jpg" class="pagebanner" />
 
-        <div class="col-md-2" id="adslot1_pc">
-            <div></div>
-            <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
-        </div>
+        <div class="col-md-12" id="content">
 
-        <div class="col-md-8" id="maincontent">
-
-            <div class="col-md-12">
-                <h1 style="text-align: center;border-bottom: none; color:darkred" >ALL YOURS</h1>
-                <p>This page is all for you honey.. A private network for you by me.. I Love and Know You most in this world.. This is a collection of the loveliest and funniest of reads, pictures and clips and the hot news of your interest.. Regularly updated and handpicked by me... I Love You My Darling...</p>
+            <div class="col-md-2" id="adslot1_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
             </div>
 
-            <div class="col-md-12">
-                <div class="panel panel-primary" ng-repeat="item in dataSelected.mainData.justforyou.list">
-                    <img src={{item.a}} style="width:100%;height:auto" />
+            <div class="col-md-8" id="maincontent">
+
+                <div class="col-md-12">
+                    <h1 style="text-align: center;border-bottom: none; color:darkred" >WHEN WE MET</h1>
+                    <p>On 17 September, 2017.. A lonely Sunday noon in Hawaii..</p>
+                    <p>And on 18 September, 2017.. A sleepless lonely Monday early morning in India..</p>
+                    <div class="panel panel-primary">
+                        <img src="./images/letters/1.png" style="width:100%;height:auto" />
+                        <img src="./images/letters/2.png" style="width:100%;height:auto" />
+                    </div>
                 </div>
+
             </div>
 
             <div class="col-md-12" id="adslot1_mob">
@@ -43,14 +47,13 @@
                 <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
             </div>
 
+            <div class="col-md-2" id="adslot2_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+
         </div>
-
-
-        <div class="col-md-2" id="adslot2_pc">
-            <div></div>
-            <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
-        </div>
-
 
         <div class="col-md-12" id="footer" ng-controller="mainController">
 

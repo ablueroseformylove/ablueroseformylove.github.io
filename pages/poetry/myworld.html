@@ -1,0 +1,95 @@
+<div class="col-md-12 ng-scope" id="mypage" ng-controller="mainController">
+
+    <nav id="mykdr_nav">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#theme"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}}></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-snowflake-o"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="fa fa-spinner"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="col-md-12" id="non-nav" ng-controller="mainController">
+
+        <img src="./images/poetry/cover/6.jpg" class="pagebanner" />
+
+        <div class="col-md-12" id="content">
+
+            <div class="col-md-2" id="adslot1_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+            <div class="col-md-8" id="maincontent">
+
+                <div class="col-md-12">
+                    <h1 style="text-align: center;border-bottom: none; color:darkred" >MY WORLD</h1>
+                    <br />
+                    <p>I love you hon and i hope to see you soon..</p>
+                    <p>I love you most dont forget me during noon..</p>
+                    <br />
+                    <p>Dont worry coz im not mad angry or sad..</p>
+                    <p>All is well with us both and im so so glad..</p>
+                    <br />
+                    <p>But i miss you just like moon by a werewolf..</p>
+                    <p>And all my love seems to be caged in myself..</p>
+                    <br />
+                    <p>I want to give you all of it without due..</p>
+                    <p>And get some sweet strong love back from you..</p>
+                    <br />
+                    <p>But you seem to be so not around..</p>
+                    <p>And not let me in when i want to be bound..</p>
+                    <br />
+                    <p>Dont get yourself into too much strain..</p>
+                    <p>And dont make all my love go in vain..</p>
+                    <br />
+                    <p>Coz we are the ones who are there for each other..</p>
+                    <p>And whatever happens to each of us are felt together..</p>
+                    <br />
+                    <p>Your health and happiness is my big dream..</p>
+                    <p>And my dreams will be true with us as a team..</p>
+                    <br />
+                    <p>Lets love each other like no others did..</p>
+                    <p>And never let go just like a giant squid..</p>
+                    <br />
+                    <p>I love you babe and you are my world..</p>
+                    <p>So lets hug kiss and love until our bodies get curled..</p>
+                    <br />
+                    <p>I love you sweetheart...</p>
+                    <br />
+                    <p>I miss you sooooo much...</p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-12" id="adslot1_mob">
+                <img style="width: 100%; margin: auto" src={{dataSelected.mainData.strips.jetaimemob}} />
+                <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+            </div>
+
+            <div class="col-md-2" id="adslot2_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-12" id="footer" ng-controller="mainController">
+
+            <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+
+        </div>
+
+    </div>
+
+</div>

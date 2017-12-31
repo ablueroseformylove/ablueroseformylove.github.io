@@ -1,0 +1,74 @@
+<div class="col-md-12 ng-scope" id="mypage" ng-controller="mainController">
+
+    <nav id="mykdr_nav">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#theme"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}}></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-snowflake-o"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="fa fa-spinner"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="col-md-12" id="non-nav" ng-controller="mainController">
+
+        <img src="./images/letters/cover/20.jpg" class="pagebanner" />
+
+        <div class="col-md-12" id="content">
+
+            <div class="col-md-2" id="adslot1_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+            <div class="col-md-8" id="maincontent">
+
+                <div class="col-md-12">
+                    <h1 style="text-align: center;border-bottom: none; color:darkred" >HIGH SCHOOL MUSICAL</h1>
+                    <br />
+                    <p>This is beautiful.. </p>
+                    <p>Me: Living in my own world... Didnt understand... That anything can happen.. When you take a chance... </p>
+                    <p>You: I never believed in.. What i couldnt see... I never opened my heart... To all the possibilities... </p>
+                    <p>Both: I know.. That something has changed... Never felt this way... And right here tonight (that night)... This could be the start of something new... It feels so right... To be here with you...Oh.. And now.. I'm (not) looking in your eyes... I feel in my heart... The start of something new... Oh.. yeah.. Now who d ever thought that... We d be here tonight (that night)... And the world looks so much brighter... With you by my side... I know that something has changed... Never felt this way... I know it for real.. This could be the start of something new...  </p>
+                    <p>Me: I never knew that it could happen till it happened to me... Oh.. Yeah.. </p>
+                    <p>You: I didn't know it before but now it is easy to see... Oh... ! </p>
+                    <p>Both: This .. could be the start of something new......... </p>
+                    <p>Me:  Krish... </p>
+                    <p>You: Chianna... </p>
+                    <p>Thats how this started ... Hahahahaha.. I love you babe... </p>
+                    <p>Thanks for the High School Musical.. Love you.. <3</p>
+                    <p>P.S. I m not the best of singers or dancers okay..  :D :D</p>
+                    <p>See you later babe..</p>
+                </div>
+
+            </div>
+
+            <div class="col-md-12" id="adslot1_mob">
+                <img style="width: 100%; margin: auto" src={{dataSelected.mainData.strips.jetaimemob}} />
+                <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+            </div>
+
+            <div class="col-md-2" id="adslot2_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-12" id="footer" ng-controller="mainController">
+
+            <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+
+        </div>
+
+    </div>
+
+</div>

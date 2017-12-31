@@ -1,0 +1,85 @@
+
+<div class="col-md-12 ng-scope" id="mypage" ng-controller="mainController">
+
+    <nav id="mykdr_nav">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#theme"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}}></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-snowflake-o"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="fa fa-spinner"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="col-md-12" id="non-nav" ng-controller="mainController">
+
+        <img src="./images/poetry/cover/9.jpg" class="pagebanner" />
+
+        <div class="col-md-12" id="content">
+
+            <div class="col-md-2" id="adslot1_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+            <div class="col-md-8" id="maincontent">
+
+                <div class="col-md-12">
+                    <h1 style="text-align: center;border-bottom: none; color:darkred" >LOVE, LAUGH AND LIVE</h1>
+                    <br />
+                    <p>Lets walk holding our hands in the seashore at sunset...</p>
+                    <p>Lets hear the same song with the two ends of a headset...</p>
+                    <p>Lets grow a garden and fill the flowers on a bouquet...</p>
+                    <p>Lets hold each other and dance for a romantic duet...</p>
+                    <br />
+                    <p>Lets sleep on our shoulders in the shade of the green tree...</p>
+                    <p>Lets go out together for nothing but an iced tea...</p>
+                    <p>Lets kiss each other when in case we get to disagree...</p>
+                    <p>Lets tick all the list of places that we want to just go see...</p>
+                    <br />
+                    <p>Lets go to a long drive in the calm road with our music...</p>
+                    <p>Lets sit beside and take care whenever we get sick...</p>
+                    <p>Lets go to the night shows of the best of the love flick...</p>
+                    <p>Lets tease each other with the touch of my dick and your lipstick...</p>
+                    <br />
+                    <p>Lets love listen kiss care and be there for each other...</p>
+                    <p>Lets make each other best by just being together...</p>
+                    <p>Lets be the whole worlds best father and mother...</p>
+                    <p>Lets love laugh and live our lives happily forever...</p>
+                    <br />
+                    <p>I love you Chianna ❤</p>
+                    <br />
+                    <p>I miss you so much... ❤</p>
+                </div>
+
+            </div>
+
+            <div class="col-md-12" id="adslot1_mob">
+                <img style="width: 100%; margin: auto" src={{dataSelected.mainData.strips.jetaimemob}} />
+                <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+            </div>
+
+            <div class="col-md-2" id="adslot2_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-12" id="footer" ng-controller="mainController">
+
+            <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+
+        </div>
+
+    </div>
+
+</div>

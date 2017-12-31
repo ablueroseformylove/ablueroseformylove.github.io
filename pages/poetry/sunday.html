@@ -1,0 +1,85 @@
+<div class="col-md-12 ng-scope" id="mypage" ng-controller="mainController">
+
+    <nav id="mykdr_nav">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#theme"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}}></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-snowflake-o"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="fa fa-spinner"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="col-md-12" id="non-nav" ng-controller="mainController">
+
+        <img src="./images/poetry/cover/7.jpg" class="pagebanner" />
+
+        <div class="col-md-12" id="content">
+
+            <div class="col-md-2" id="adslot1_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+            <div class="col-md-8" id="maincontent">
+
+                <div class="col-md-12">
+
+                    <h1 style="text-align: center;border-bottom: none; color:darkred" >SUNDAY</h1>
+                    <br />
+                    <p>Hows your sunday hon are you fresh....</p>
+                    <p>Did you eat and shower and brush....</p>
+                    <br />
+                    <p>Youre my sweetheart take good care....</p>
+                    <p>Dont forget to dry your hair....</p>
+                    <br />
+                    <p>Im so sorry i slept off longer....</p>
+                    <p>I woke up with very much anger....</p>
+                    <br />
+                    <p>Everytime i make you wait....</p>
+                    <p>My heart fills with more and more weight....</p>
+                    <br />
+                    <p>Fuck this time zone and this distance....</p>
+                    <p>I ll follow my schedule with obedience....</p>
+                    <br />
+                    <p>Im jogging now love and im good....</p>
+                    <p>Please take care and eat some food....</p>
+                    <br />
+                    <p>Be gritty and happy and show your smiles....</p>
+                    <p>Coz i love you most from 50000 miles....</p>
+                    <br />
+                    <p>I love you Sweetheart.. ❤</p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-12" id="adslot1_mob">
+                <img style="width: 100%; margin: auto" src={{dataSelected.mainData.strips.jetaimemob}} />
+                <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+            </div>
+
+            <div class="col-md-2" id="adslot2_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-12" id="footer" ng-controller="mainController">
+
+            <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+
+        </div>
+
+    </div>
+
+</div>

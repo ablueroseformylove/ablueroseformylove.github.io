@@ -1,0 +1,92 @@
+<div class="col-md-12 ng-scope" id="mypage" ng-controller="mainController">
+
+    <nav id="mykdr_nav">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#theme"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}}></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-snowflake-o"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="fa fa-spinner"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="col-md-12" id="non-nav" ng-controller="mainController">
+
+        <img src="./images/letters/cover/22.jpg" class="pagebanner" />
+
+        <div class="col-md-12" id="content">
+
+            <div class="col-md-2" id="adslot1_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+            <div class="col-md-8" id="maincontent">
+
+                <div class="col-md-12">
+                    <h1 style="text-align: center;border-bottom: none; color:darkred" >JUST UNDERSTAND</h1>
+                    <br />
+                    <p>Just understand this in life...</p>
+                    <p>There will always be people around you..</p>
+                    <p>Different people at different times..</p>
+                    <p>Some people will be there with you when they want you..</p>
+                    <p>Some will be there with you when they need you..</p>
+                    <p>Some will be there when youre happy and successful..</p>
+                    <p>Some will make you sad when youre happy..</p>
+                    <p>Some will make you happy when youre sad..</p>
+                    <p>Some will make you both laugh and cry..</p>
+                    <p>Some will heal you when youre sick and tired..</p>
+                    <p>Some will pleasure you when you are bored and wanting..</p>
+                    <p>Some will love you when you want to be loved..</p>
+                    <p>Some will be there with you when youre sad and lonely..</p>
+                    <p>Some will encourage you when youre scared..</p>
+                    <p>Some will be encouraged by what you say..</p>
+                    <p>Some will make you their world..</p>
+                    <p>Some will make your heart leap..</p>
+                    <p>Some heart leaps thinking about you..</p>
+                    <p>Some will stay lovable when you want to love someone..</p>
+                    <p>Some will be there for you for keeping you company and nothing else..</p>
+                    <p>Some will be there who enjoy your company..</p>
+                    <p>Some will understand you..</p>
+                    <p>Some will wish for your good always..</p>
+                    <p>Only a few will be there for you when you need them the most..</p>
+                    <p>Only fewer will give up everything of theirs to be there for you..</p>
+                    <p>BUT REMEMBER..</p>
+                    <p>If you ever find someone who will be EVERY OF THE ABOVE..</p>
+                    <p>Never let him go..</p>
+                    <p>If you understand this..  You understand life..</p>
+                    <p>I love you ❤</p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-12" id="adslot1_mob">
+                <img style="width: 100%; margin: auto" src={{dataSelected.mainData.strips.jetaimemob}} />
+                <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+            </div>
+
+            <div class="col-md-2" id="adslot2_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-12" id="footer" ng-controller="mainController">
+
+            <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+
+        </div>
+
+    </div>
+
+</div>

@@ -23,17 +23,64 @@
 
         <div class="col-md-12" id="content">
 
-            <div class="col-md-2" id="adslot1_pc">
-                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
-                <div></div>
+            <div class="col-md-2" id="adslot1_pc" style="opacity: 0.9; background: #52c234;  /* fallback for old browsers */ background: -webkit-linear-gradient(to right, #061700, #52c234);  /* Chrome 10-25, Safari 5.1-6 */ background: linear-gradient(to right, #061700, #52c234); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */">
+                <div style="font-size: xx-large; padding: 30vh 0 30vh 0; text-align: center; color: #fafafa; font-family: 'Segoe UI Semibold' ">
+                    <p>I</p>
+                    <p>LOVE</p>
+                    <p>YOU</p>
+                    <p>MOST</p>
+                    <p>IN</p>
+                    <p>THIS</p>
+                    <p>WORLD</p>
+                </div>
+                <div style="font-size: xx-large; padding: 30vh 0 30vh 0; text-align: center; color: #fafafa; font-family: 'Segoe UI Semibold' ">
+                    <p>I</p>
+                    <p>LOVE</p>
+                    <p>YOU</p>
+                    <p>MOST</p>
+                    <p>IN</p>
+                    <p>THIS</p>
+                    <p>WORLD</p>
+                </div>
+                <div style="font-size: xx-large; padding: 30vh 0 30vh 0; text-align: center; color: #fafafa;  font-family: 'Segoe UI Semibold' ">
+                    <p>I</p>
+                    <p>LOVE</p>
+                    <p>YOU</p>
+                    <p>MOST</p>
+                    <p>IN</p>
+                    <p>THIS</p>
+                    <p>WORLD</p>
+                </div>
+                <div style="font-size: xx-large; padding: 30vh 0 30vh 0; text-align: center; color: #fafafa;  font-family: 'Segoe UI Semibold' ">
+                    <p>I</p>
+                    <p>LOVE</p>
+                    <p>YOU</p>
+                    <p>MOST</p>
+                    <p>IN</p>
+                    <p>THIS</p>
+                    <p>WORLD</p>
+                </div>
             </div>
 
             <div class="col-md-8" id="maincontent">
 
                 <div class="col-md-12">
-                    <h1 style="text-align: center;border-bottom: none; color:red" >THE SCRIPTS OF LOVE</h1>
-                    <p>Our journey is a lovely one from since we met.. We wrote some beautiful and lovely words filled with love for each other.. Lets re-live them again...</p>
+                    <h1 style="text-align: center;border-bottom: none; color:darkred" >{{dataSelected.mainData.letters.head}}</h1>
+                    <p style="padding: 2%;">{{dataSelected.mainData.letters.intro}}</p>
                 </div>
+
+                <a ng-repeat="item in dataSelected.mainData.letters.list" href={{item.href}}>
+
+                    <div class="col-md-3 panelcol panel panel-default">
+                        <div class="panel-body panelcontent">
+                            <img src="{{item.pic}}" class="panelimg" alt="test"></img>
+                        </div>
+                        <div class="panel-footer">
+                            <div class="panelname">{{item.title}}</div>
+                        </div>
+                    </div>
+
+                </a>
 
                 <div class="col-md-12" id="adslot1_mob">
                     <img style="width: 100%; margin: auto" src={{dataSelected.mainData.strips.jetaimemob}} />
@@ -41,25 +88,45 @@
                 </div>
 
 
-                <!--<a ng-repeat="item in dataSelected.mainData.letters.list" href={{item.href}}>-->
-
-                    <!--<div class="col-md-3 panelcol panel panel-default">-->
-                        <!--<div class="panel-body panelcontent">-->
-                            <!--<img src="{{item.pic}}" class="panelimg" alt="test"></img>-->
-                        <!--</div>-->
-                        <!--<div class="panel-footer">-->
-                            <!--<div class="panelname">{{item.title}}</div>-->
-                        <!--</div>-->
-                    <!--</div>-->
-
-                <!--</a>-->
-
-
             </div>
 
-            <div class="col-md-2" id="adslot2_pc">
-                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
-                <div></div>
+            <div class="col-md-2" id="adslot2_pc" style=" opacity: 0.9; background: #52c234;  /* fallback for old browsers */background: -webkit-linear-gradient(to left, #061700, #52c234);  /* Chrome 10-25, Safari 5.1-6 */ background: linear-gradient(to left, #061700, #52c234); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */">
+                <div style="font-size: xx-large; padding: 30vh 0 30vh 0; text-align: center; color: #fafafa; font-family: 'Segoe UI Semibold' ">
+                    <p>*</p>
+                    <p>YOU</p>
+                    <p>ARE</p>
+                    <p>MY</p>
+                    <p>EVERY</p>
+                    <p>THING</p>
+                    <p>*</p>
+                </div>
+                <div style="font-size: xx-large; padding: 30vh 0 30vh 0; text-align: center; color: #fafafa;  font-family: 'Segoe UI Semibold' ">
+                    <p>*</p>
+                    <p>YOU</p>
+                    <p>ARE</p>
+                    <p>MY</p>
+                    <p>EVERY</p>
+                    <p>THING</p>
+                    <p>*</p>
+                </div>
+                <div style="font-size: xx-large; padding: 30vh 0 30vh 0; text-align: center; color: #fafafa; font-family: 'Segoe UI Semibold' ">
+                    <p>*</p>
+                    <p>YOU</p>
+                    <p>ARE</p>
+                    <p>MY</p>
+                    <p>EVERY</p>
+                    <p>THING</p>
+                    <p>*</p>
+                </div>
+                <div style="font-size: xx-large; padding: 30vh 0 30vh 0; text-align: center; color: #fafafa; font-family: 'Segoe UI Semibold' ">
+                    <p>*</p>
+                    <p>YOU</p>
+                    <p>ARE</p>
+                    <p>MY</p>
+                    <p>EVERY</p>
+                    <p>THING</p>
+                    <p>*</p>
+                </div>
             </div>
 
 

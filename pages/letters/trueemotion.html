@@ -1,0 +1,69 @@
+<div class="col-md-12 ng-scope" id="mypage" ng-controller="mainController">
+
+    <nav id="mykdr_nav">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#theme"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}}></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-snowflake-o"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="fa fa-spinner"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="col-md-12" id="non-nav" ng-controller="mainController">
+
+        <img src="./images/letters/cover/15.jpg" class="pagebanner" />
+
+        <div class="col-md-12" id="content">
+
+            <div class="col-md-2" id="adslot1_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+            <div class="col-md-8" id="maincontent">
+
+                <div class="col-md-12">
+                    <h1 style="text-align: center;border-bottom: none; color:darkred" >TRUE EMOTION</h1>
+                    <br />
+                    <p>Babe...</p>
+                    <p>I am trying to do everything in my power to make you happy.. to keep you strong.. to help you fight.. Still every time you speak you dont seem to be that way.. i m trying my best from the edge of what you are allowing me to do.. i m really trying.. </p>
+                    <p>But seeing you not happy.. even in your dreams.. makes me sad.. and i cant hide it cos i love you that much.. i m giving every ounce of love that i can possibly give.. to just you.. I will never force you to continue this okay.. Never.. If youre not feeling good talking with me.. just stop okay.. don't do this for my sake coz you have given me a motivation... i promised you and i will try my best keep it up.. i hope i will.. but that's not the point of this...</p>
+                    <p>You should be happy.. you should have that energy and focus to fight.. i only want that from you.. Go where you can find that love happiness and energy.. you don't need to do this for my sake.. Dont live to please.. live to be happy.. fight to live happy.. and love.. to feel it all...</p>
+                    <p>I will always love you no matter what you decide okay.. You are the most important for me.. Understand that.. be smart.. and choose wisely.. take care my love.. </p>
+                    <p>I remember every single detail of my dream coz dreams like these gives me the energy to fight every day.. to be happy.. they motivate me to fight..</p>
+                    <p>Thats why i write them up..  And cherish them.. Never stop dreaming..  That will motivate you to make it happen.. Remember those dreams forever.. for they will guide you.. they will give you the energy.. they will make you focus.. to fight.. to live those dreams.. </p>
+                    <p> I love you Chianna ❤</p>
+                </div>
+
+            </div>
+
+            <div class="col-md-12" id="adslot1_mob">
+                <img style="width: 100%; margin: auto" src={{dataSelected.mainData.strips.jetaimemob}} />
+                <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+            </div>
+
+            <div class="col-md-2" id="adslot2_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-12" id="footer" ng-controller="mainController">
+
+            <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+
+        </div>
+
+    </div>
+
+</div>

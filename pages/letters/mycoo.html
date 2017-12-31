@@ -1,0 +1,67 @@
+<div class="col-md-12 ng-scope" id="mypage" ng-controller="mainController">
+
+    <nav id="mykdr_nav">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#theme"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}}></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-snowflake-o"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="fa fa-spinner"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="col-md-12" id="non-nav" ng-controller="mainController">
+
+        <img src="./images/letters/cover/14.jpg" class="pagebanner" />
+
+        <div class="col-md-12" id="content">
+
+            <div class="col-md-2" id="adslot1_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+            <div class="col-md-8" id="maincontent">
+
+                <div class="col-md-12">
+                    <h1 style="text-align: center;border-bottom: none; color:darkred" >MY COO</h1>
+                    <br />
+                    <p>Chianna...</p>
+                    <p>Without you monitoring me.. i would never get anywhere.. you doing that for me feels like the world to me.. you are my guide in my life.. you are a lot of things to me.. Its just that im also in love with you makes things bit complicated.. i will learn to deal well with that.. teach me to do that chianna.. i never had siblings or girlfriends and our culture, mainly our family is primitive on inter gender friendships or physical affection.. people are shy.. even the less of physical contact are interpreted as love.. im trapped in such a place.. please make me get used to your way.. i have to learn to deal with this.. so please help me along my way.. i want to be better.. i will be.. </p>
+                    <p>I know you will have your priorities.. i dont want to be a pain for you.. reach me only when you can spare some time okay.. i dont want to disturb okay.. hmm.. you know how it is.. i m sorry if i sound like a kid okay.. i messed up above but anyways you know what i mean.. jus ignore it if you find it childish okay.. </p>
+                    <p>I love you ❤ </p>
+                    <p>P.S. i did not fall in love with you because of all these.. but i want to learn to cope with this okay. </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-12" id="adslot1_mob">
+                <img style="width: 100%; margin: auto" src={{dataSelected.mainData.strips.jetaimemob}} />
+                <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+            </div>
+
+            <div class="col-md-2" id="adslot2_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-12" id="footer" ng-controller="mainController">
+
+            <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+
+        </div>
+
+    </div>
+
+</div>

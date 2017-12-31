@@ -1,0 +1,90 @@
+<div class="col-md-12 ng-scope" id="mypage" ng-controller="mainController">
+
+    <nav id="mykdr_nav">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#theme"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}}></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-snowflake-o"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="fa fa-spinner"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="col-md-12" id="non-nav" ng-controller="mainController">
+
+        <img src="./images/letters/cover/37.jpg" class="pagebanner" />
+
+        <div class="col-md-12" id="content">
+
+            <div class="col-md-2" id="adslot1_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+            <div class="col-md-8" id="maincontent">
+
+                <div class="col-md-12">
+                    <h1 style="text-align: center;border-bottom: none; color:darkred" >YOU WILL</h1>
+                    <br />
+                    <p>My love..</p>
+                    <p>Wake up fresh..</p>
+                    <p>Let all the energy find its way to you..</p>
+                    <p>Let all the health stay with you and make you strong..</p>
+                    <p>Let all the happiness be with you.. my love and your happiness.. i love you honey..</p>
+                    <p>You will be good..</p>
+                    <p>You will be strong..</p>
+                    <p>You can do it..</p>
+                    <p>I believe in you..</p>
+                    <p>I ll be waiting for you my love..</p>
+                    <p>You will do it easy and well..</p>
+                    <p>You will be gritty and strong..</p>
+                    <p>You will smile..</p>
+                    <p>You will Clear your mind.. be calm and focused..</p>
+                    <p>You wont stress much..</p>
+                    <p>You have Nothing to fear or worry..</p>
+                    <p>There s time for everything..</p>
+                    <p>Im always with you..</p>
+                    <p>All is well..</p>
+                    <p>Keep calm..</p>
+                    <p>Im here for you..</p>
+                    <p>Jus keep it simple..</p>
+                    <p>And come back to me..</p>
+                    <p>Good morning my love..</p>
+                    <p>And all the very best for you..</p>
+                    <p>Mail me when you wake up okay..</p>
+                    <p>I love you most... ❤</p>
+                    <p>See you soon.. ❤</p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-12" id="adslot1_mob">
+                <img style="width: 100%; margin: auto" src={{dataSelected.mainData.strips.jetaimemob}} />
+                <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+            </div>
+
+            <div class="col-md-2" id="adslot2_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-12" id="footer" ng-controller="mainController">
+
+            <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+
+        </div>
+
+    </div>
+
+</div>
