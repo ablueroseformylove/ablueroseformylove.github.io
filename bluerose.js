@@ -1205,7 +1205,7 @@ bluerose.controller('mainController', function($rootScope, $scope) {
     document.body.scrollTop = 0;
 
     // inject rootScope variables
-    $rootScope.credentials = "zeinshaun17sep2017";
+    $rootScope.credentials = "zeinshaunchiannakrishlovelaughlivelongtogetherhappypeaceharmonyfrom17sep2017";
     $rootScope.valid = false;
 
     $rootScope.closed = function() {
