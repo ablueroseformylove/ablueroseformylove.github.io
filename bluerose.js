@@ -680,7 +680,7 @@ bluerose.run(['$rootScope', '$route', function($rootScope, $route) {
                 {
                     href: "#whenwemet",
                     title: "WHEN WE MET",
-                    pic: "./images/letters/thumb/1.jpg"
+                    pic: "./images/letters/thumb/36.jpg"
                 },
                 {
                     href: "#everysong",
@@ -1205,7 +1205,7 @@ bluerose.controller('mainController', function($rootScope, $scope) {
     document.body.scrollTop = 0;
 
     // inject rootScope variables
-    $rootScope.credentials = "zeinshaunchiannakrishlovelaughlivelongtogetherhappypeaceharmonyfrom17sep2017";
+    $rootScope.credentials = "zeinshaun17sep2017";
     $rootScope.valid = false;
 
     $rootScope.closed = function() {
