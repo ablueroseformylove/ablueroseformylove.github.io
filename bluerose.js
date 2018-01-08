@@ -624,13 +624,13 @@ bluerose.run(['$rootScope', '$route', function($rootScope, $route) {
         theme: {
             portrait: {
                 pic1: "./images/theme/a.jpg",
-                pic2: "./images/theme/b.jpg",
-                pic3: "./images/theme/c.jpg",
-                pic4: "./images/theme/d.jpg",
-                pic5: "./images/theme/e.jpg",
-                pic6: "./images/theme/f.jpg",
-                pic7: "./images/theme/g.jpg",
-                pic8: "./images/theme/h.jpg",
+                pic2: "./images/theme/a.jpg",
+                pic3: "./images/theme/a.jpg",
+                pic4: "./images/theme/a.jpg",
+                pic5: "./images/theme/a.jpg",
+                pic6: "./images/theme/a.jpg",
+                pic7: "./images/theme/a.jpg",
+                pic8: "./images/theme/a.jpg",
                 pic1alt: "Happy Bday.",
                 pic2alt: "Love You",
                 pic3alt: "Honey",
@@ -642,8 +642,8 @@ bluerose.run(['$rootScope', '$route', function($rootScope, $route) {
             },
             landscape: {
                 pic1: "./images/theme/i.jpg",
-                pic2: "./images/theme/j.jpg",
-                pic3: "./images/theme/k.jpg",
+                pic2: "./images/theme/i.jpg",
+                pic3: "./images/theme/i.jpg",
                 pic1alt: "Happy Bday",
                 pic2alt: "My love",
                 pic3alt: "je taime"
