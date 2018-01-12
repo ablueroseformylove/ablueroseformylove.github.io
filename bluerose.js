@@ -27,10 +27,10 @@ bluerose.config(function($routeProvider) {
         })
 
         // route for the theme page
-        .when('/theme', {
+        .when('/greytheme', {
             title : "For My Best Girl In the World - You & Me",
             description : "",
-            templateUrl : 'pages/theme.html',
+            templateUrl : 'pages/greytheme.html',
             controller  : 'mainController'
         })
 
