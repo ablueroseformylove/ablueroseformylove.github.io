@@ -90,6 +90,13 @@ bluerose.config(function($routeProvider) {
             controller  : 'mainController'
         })
 
+
+
+
+         //LETTERS
+
+
+
         // route for the whenwemet page
         .when('/whenwemet', {
             title :"When We Met... - Letters - You & Me",
@@ -490,6 +497,125 @@ bluerose.config(function($routeProvider) {
             controller  : 'mainController'
         })
 
+        // route for the happynewyear page
+        .when('/happynewyear', {
+            title :"Happy New Year... - Letters - You & Me",
+            description : "",
+            templateUrl : 'pages/letters/happynewyear.html',
+            controller  : 'mainController'
+        })
+
+        // route for the staystrong page
+        .when('/staystrong', {
+            title :"Stay Strong... - Letters - You & Me",
+            description : "",
+            templateUrl : 'pages/letters/staystrong.html',
+            controller  : 'mainController'
+        })
+
+        // route for the whenwemisseachother page
+        .when('/whenwemisseachother', {
+            title :"When we miss Each Other... - Letters - You & Me",
+            description : "",
+            templateUrl : 'pages/letters/whenwemisseachother.html',
+            controller  : 'mainController'
+        })
+
+        // route for the everynight page
+        .when('/everynight', {
+            title :"Every Night... - Letters - You & Me",
+            description : "",
+            templateUrl : 'pages/letters/everynight.html',
+            controller  : 'mainController'
+        })
+
+        // route for the thisislife page
+        .when('/thisislife', {
+            title :"This Is Life... - Letters - You & Me",
+            description : "",
+            templateUrl : 'pages/letters/thisislife.html',
+            controller  : 'mainController'
+        })
+
+        // route for the itsallforyou page
+        .when('/itsallforyou', {
+            title :"It's All For You... - Letters - You & Me",
+            description : "",
+            templateUrl : 'pages/letters/itsallforyou.html',
+            controller  : 'mainController'
+        })
+
+        // route for the nevergiveup page
+        .when('/nevergiveup', {
+            title :"Never Give Up... - Letters - You & Me",
+            description : "",
+            templateUrl : 'pages/letters/nevergiveup.html',
+            controller  : 'mainController'
+        })
+
+        // route for the turningthetides page
+        .when('/turningthetides', {
+            title :"Turning the Tides... - Letters - You & Me",
+            description : "",
+            templateUrl : 'pages/letters/turningthetides.html',
+            controller  : 'mainController'
+        })
+
+        // route for the thereasontofight page
+        .when('/thereasontofight', {
+            title :"The Reason To Fight... - Letters - You & Me",
+            description : "",
+            templateUrl : 'pages/letters/thereasontofight.html',
+            controller  : 'mainController'
+        })
+
+        // route for the thechainofevents page
+        .when('/thechainofevents', {
+            title :"The Chain Of Events... - Letters - You & Me",
+            description : "",
+            templateUrl : 'pages/letters/thechainofevents.html',
+            controller  : 'mainController'
+        })
+
+        // route for the youreneversickwithme page
+        .when('/youreneversickwithme', {
+            title :"You're Never Sick With Me... - Letters - You & Me",
+            description : "",
+            templateUrl : 'pages/letters/youreneversickwithme.html',
+            controller  : 'mainController'
+        })
+
+        // route for the onequestion page
+        .when('/onequestion', {
+            title :"One Question... - Letters - You & Me",
+            description : "",
+            templateUrl : 'pages/letters/onequestion.html',
+            controller  : 'mainController'
+        })
+
+        // route for the itsabouttime page
+        .when('/itsabouttime', {
+            title :"It's About Time... - Letters - You & Me",
+            description : "",
+            templateUrl : 'pages/letters/itsabouttime.html',
+            controller  : 'mainController'
+        })
+
+        // route for the margo page
+        .when('/margo', {
+            title :"Margo... - Letters - You & Me",
+            description : "",
+            templateUrl : 'pages/letters/margo.html',
+            controller  : 'mainController'
+        })
+
+
+
+
+        //POETRY
+
+
+
         // route for the howiwish page
         .when('/howiwish', {
             title :"How I Wish... - Poetry - You & Me",
@@ -570,6 +696,20 @@ bluerose.config(function($routeProvider) {
             controller  : 'mainController'
         })
 
+        // route for the thislove page
+        .when('/thislove', {
+            title :"This Love... - Poetry - You & Me",
+            description : "",
+            templateUrl : 'pages/poetry/thislove.html',
+            controller  : 'mainController'
+        })
+
+
+
+
+        //DREAMS
+
+
 
         // route for the theolympicdream page
         .when('/theolympicdream', {
@@ -623,14 +763,14 @@ bluerose.run(['$rootScope', '$route', function($rootScope, $route) {
         },
         theme: {
             portrait: {
-                pic1: "./images/theme/a.jpg",
-                pic2: "./images/theme/a.jpg",
-                pic3: "./images/theme/a.jpg",
-                pic4: "./images/theme/a.jpg",
-                pic5: "./images/theme/a.jpg",
-                pic6: "./images/theme/a.jpg",
-                pic7: "./images/theme/a.jpg",
-                pic8: "./images/theme/a.jpg",
+                pic1: "./images/theme/pdef.jpg",
+                pic2: "./images/theme/b.jpg",
+                pic3: "./images/theme/c.jpg",
+                pic4: "./images/theme/d.jpg",
+                pic5: "./images/theme/e.jpg",
+                pic6: "./images/theme/f.jpg",
+                pic7: "./images/theme/g.jpg",
+                pic8: "./images/theme/h.jpg",
                 pic1alt: "Happy Bday.",
                 pic2alt: "Love You",
                 pic3alt: "Honey",
@@ -641,9 +781,9 @@ bluerose.run(['$rootScope', '$route', function($rootScope, $route) {
                 pic8alt: "Always"
             },
             landscape: {
-                pic1: "./images/theme/i.jpg",
-                pic2: "./images/theme/i.jpg",
-                pic3: "./images/theme/i.jpg",
+                pic1: "./images/theme/ldef.jpg",
+                pic2: "./images/theme/j.jpg",
+                pic3: "./images/theme/k.jpg",
                 pic1alt: "Happy Bday",
                 pic2alt: "My love",
                 pic3alt: "je taime"
@@ -680,7 +820,7 @@ bluerose.run(['$rootScope', '$route', function($rootScope, $route) {
                 {
                     href: "#whenwemet",
                     title: "WHEN WE MET",
-                    pic: "./images/letters/thumb/36.jpg"
+                    pic: "./images/letters/thumb/1.jpg"
                 },
                 {
                     href: "#everysong",
@@ -926,7 +1066,78 @@ bluerose.run(['$rootScope', '$route', function($rootScope, $route) {
                     href: "#theidlemind",
                     title: "THE IDLE MIND",
                     pic: "./images/letters/thumb/50.jpg"
+                },
+                {
+                    href: "#happynewyear",
+                    title: "HAPPY NEW YEAR",
+                    pic: "./images/letters/thumb/51.jpg"
+                },
+                {
+                    href: "#staystrong",
+                    title: "STAY STRONG",
+                    pic: "./images/letters/thumb/52.jpg"
+                },
+                {
+                    href: "#whenwemisseachother",
+                    title: "WHEN WE MISS US",
+                    pic: "./images/letters/thumb/53.jpg"
+                },
+                {
+                    href: "#everynight",
+                    title: "EVERY NIGHT",
+                    pic: "./images/letters/thumb/54.jpg"
+                },
+                {
+                    href: "#thisislife",
+                    title: "THIS IS LIFE",
+                    pic: "./images/letters/thumb/55.jpg"
+                },
+                {
+                    href: "#itsallforyou",
+                    title: "ITS ALL FOR YOU",
+                    pic: "./images/letters/thumb/56.jpg"
+                },
+                {
+                    href: "#nevergiveup",
+                    title: "NEVER GIVE UP",
+                    pic: "./images/letters/thumb/57.jpg"
+                },
+                {
+                    href: "#turningthetides",
+                    title: "TURNING THE TIDES",
+                    pic: "./images/letters/thumb/58.jpg"
+                },
+                {
+                    href: "#thereasontofight",
+                    title: "THE REASON TO FIGHT",
+                    pic: "./images/letters/thumb/59.jpg"
+                },
+                {
+                    href: "#thechainofevents",
+                    title: "THE CHAIN OF EVENTS",
+                    pic: "./images/letters/thumb/60.jpg"
+                },
+                {
+                    href: "#youreneversickwithme",
+                    title: "YOU'RE NEVER SICK",
+                    pic: "./images/letters/thumb/61.jpg"
+                },
+                {
+                    href: "#onequestion",
+                    title: "ONE QUESTION",
+                    pic: "./images/letters/thumb/62.jpg"
+                },
+                {
+                    href: "#itsabouttime",
+                    title: "ITS ABOUT TIME",
+                    pic: "./images/letters/thumb/63.jpg"
+                },
+                {
+                    href: "#margo",
+                    title: "MARGO",
+                    pic: "./images/letters/thumb/64.jpg"
                 }
+
 
             ]
 
@@ -986,6 +1197,11 @@ bluerose.run(['$rootScope', '$route', function($rootScope, $route) {
                     href: "#whenimissyou",
                     title: "WHEN I MISS YOU",
                     pic: "./images/poetry/thumb/10.jpg"
+                },
+                {
+                    href: "#thislove",
+                    title: "THIS LOVE",
+                    pic: "./images/poetry/thumb/11.jpg"
                 }
             ]
         },
@@ -1205,7 +1421,7 @@ bluerose.controller('mainController', function($rootScope, $scope) {
     document.body.scrollTop = 0;
 
     // inject rootScope variables
-    $rootScope.credentials = "zeinshaun17sep2017";
+    $rootScope.credentials = "youandmethegreyfamily";
     $rootScope.valid = false;
 
     $rootScope.closed = function() {
