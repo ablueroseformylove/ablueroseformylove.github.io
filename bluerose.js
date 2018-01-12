@@ -748,7 +748,7 @@ bluerose.run(['$rootScope', '$route', function($rootScope, $route) {
 
         general: {
             author: "krish",
-            url: "http://www.ablueroseformylove.github.io",
+            url: "http://www.ablueroseforyou.co.in",
             logo: "./images/mylogo.png",
             image: "./images/blue.png",
             lastupdated: "30 September 2017"
