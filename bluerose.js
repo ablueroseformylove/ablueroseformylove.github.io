@@ -609,6 +609,14 @@ bluerose.config(function($routeProvider) {
             controller  : 'mainController'
         })
 
+        // route for the youandme page
+        .when('/youandme', {
+            title :"You And Me... - Letters - You & Me",
+            description : "",
+            templateUrl : 'pages/letters/youandme.html',
+            controller  : 'mainController'
+        })
+
 
 
 
@@ -1136,8 +1144,12 @@ bluerose.run(['$rootScope', '$route', function($rootScope, $route) {
                     href: "#margo",
                     title: "MARGO",
                     pic: "./images/letters/thumb/64.jpg"
+                },
+                {
+                    href: "#youandme",
+                    title: "YOU AND ME",
+                    pic: "./images/letters/thumb/65.jpg"
                 }
-
 
             ]
 
