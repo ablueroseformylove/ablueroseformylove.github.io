@@ -1,0 +1,79 @@
+<div class="col-md-12 ng-scope" id="mypage" ng-controller="mainController">
+
+    <nav id="mykdr_nav">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}}></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-snowflake-o"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="fa fa-spinner"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="col-md-12" id="non-nav" ng-controller="mainController">
+
+        <img src="./images/letters/cover/57.jpg" class="pagebanner" />
+
+        <div class="col-md-12" id="content">
+
+            <div class="col-md-2" id="adslot1_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+            <div class="col-md-8" id="maincontent">
+
+                <div class="col-md-12">
+                    <h1 style="text-align: center;border-bottom: none; color:darkred" >NEVER GIVE UP</h1>
+                    <br />
+                    <p>Honey...</p>
+                    <p>When all those people around me, including my parents, gave up on me... Myself, and you didnt give up on me...</p>
+                    <p>Im still fighting...</p>
+                    <p>When all those people around you gave up on you, including yourself... I didnt give up on you...</p>
+                    <p>And now... you are fighting too...</p>
+                    <p>What are we fighting for???</p>
+                    <p>The reason that we are fighting for is that one long beautiful life together with all the love, happiness and success...</p>
+                    <p>That is what we want most...</p>
+                    <p>In life, the things that we really want will never come easy...</p>
+                    <p>Never give up on what you want most in life...</p>
+                    <p>In our case, its not easy at all...</p>
+                    <p>But we have each other to make us strong honey...</p>
+                    <p>Lets keep fighting for it until we finally get it...</p>
+                    <p>Thats what life is about...</p>
+                    <p>Fighting for things we want and need most and never giving up on the people that we love...</p>
+                    <p>That is life honey...</p>
+                    <p>Lets fight for it and achieve it honey... together...</p>
+                    <p>I Love You❤</p>
+                </div>
+
+            </div>
+
+            <div class="col-md-12" id="adslot1_mob">
+                <img style="width: 100%; margin: auto" src={{dataSelected.mainData.strips.jetaimemob}} />
+                <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+            </div>
+
+            <div class="col-md-2" id="adslot2_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-12" id="footer" ng-controller="mainController">
+
+            <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+
+        </div>
+
+    </div>
+
+</div>

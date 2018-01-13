@@ -1,0 +1,67 @@
+<div class="col-md-12 ng-scope" id="mypage" ng-controller="mainController">
+
+    <nav id="mykdr_nav">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}}></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-snowflake-o"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="fa fa-spinner"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="col-md-12" id="non-nav" ng-controller="mainController">
+
+        <img src="./images/letters/cover/60.jpg" class="pagebanner" />
+
+        <div class="col-md-12" id="content">
+
+            <div class="col-md-2" id="adslot1_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+            <div class="col-md-8" id="maincontent">
+
+                <div class="col-md-12">
+                    <h1 style="text-align: center;border-bottom: none; color:darkred" >THE CHAIN OF EVENTS</h1>
+                    <br />
+                    <p>Honey...</p>
+                    <p>In one's life, everything that happens has its timing and its reason to happen and that, is a given...</p>
+                    <p>Sometimes we may plainly understand the reason by looking at it... sometimes we may not get it however much we ponder into it... and sometimes we may misunderstand...</p>
+                    <p>But everything that happens in life has a reason behind it; and this may turn out to be the reason for the occurence of further events...</p>
+                    <p>Thats what life is... a chain of events interlinked to each other and with a set time for each to happen...</p>
+                    <p>One's state of mind is also a result of all these events and their timings...</p>
+                    <p>And now, what we can do is to make the most of whatever that happens to us and never give up on what we really want...</p>
+                    <p>That is what life has taught me... and that is what life is about...</p>
+                    <p>Not giving up on your people and your dreams, desires and wishes and doing what you feel is right, and keep doing it no matter what happens...</p>
+                    <p>I Love You❤</p>
+                </div>
+
+            </div>
+
+            <div class="col-md-12" id="adslot1_mob">
+                <img style="width: 100%; margin: auto" src={{dataSelected.mainData.strips.jetaimemob}} />
+                <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+            </div>
+
+            <div class="col-md-2" id="adslot2_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-12" id="footer" ng-controller="mainController">
+            <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+        </div>
+    </div>
+</div>

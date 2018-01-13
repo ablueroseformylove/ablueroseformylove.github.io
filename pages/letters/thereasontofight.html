@@ -1,0 +1,74 @@
+<div class="col-md-12 ng-scope" id="mypage" ng-controller="mainController">
+
+    <nav id="mykdr_nav">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}}></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-snowflake-o"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="fa fa-spinner"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="col-md-12" id="non-nav" ng-controller="mainController">
+
+        <img src="./images/letters/cover/59.jpg" class="pagebanner" />
+
+        <div class="col-md-12" id="content">
+
+            <div class="col-md-2" id="adslot1_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+            <div class="col-md-8" id="maincontent">
+
+                <div class="col-md-12">
+                    <h1 style="text-align: center;border-bottom: none; color:darkred" >THE REASON TO FIGHT</h1>
+                    <br />
+                    <p>Honey...</p>
+                    <p>You keep on saying that you chose your life 4 years ago... But just think and remember what made you choose it... You were heartbroken and you didnt have much options that you thought was good... and however much you deny it, you chose it for the sake of choosing something...</p>
+                    <p>And just look at what that choice has made you into now... Look at the state you are in now... You didnt even care of living until you met me... You were just making things alright and going to a 40-60 surgery...</p>
+                    <p>And then you met me...</p>
+                    <p>And that changed everything... That is the reason you are fighting now... Dont forget that...</p>
+                    <p>This is your story...</p>
+                    <p>And if you think even for a bit that i am a little important, i just lost nearly 8 years due to a collapse that all started with the betrayals of friends and my lost love... You know that...</p>
+                    <p>And then i met you...</p>
+                    <p>And that changed everything...</p>
+                    <p>This is the only hope for a happy life that im clinging onto now... And im not being selfish because i know this is what your heart and your soul wants too... even your body...</p>
+                    <p>Things have just drastically got hopeful since we met each other...</p>
+                    <p>I just want to to accept that fact and fight for it... and choose it above everything else because that is the only choice that matters and that is the only choice that will decide our life...</p>
+                    <p>Choosing this will only make all those people happy those who want the best for us...</p>
+                    <p>Because they at the end of the day will see us the happiest together...</p>
+                    <p>And with the talent and will that we possess, our happiest selves can choose and do things better than anything else... And thats how we will achieve all that we aimed and wished for... together...</p>
+                    <p>And for me, this is what a beautiful life is, more than anything else...</p>
+                    <p>I Love You❤</p>
+                </div>
+
+            </div>
+
+            <div class="col-md-12" id="adslot1_mob">
+                <img style="width: 100%; margin: auto" src={{dataSelected.mainData.strips.jetaimemob}} />
+                <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+            </div>
+
+            <div class="col-md-2" id="adslot2_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-12" id="footer" ng-controller="mainController">
+            <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,64 @@
+<div class="col-md-12 ng-scope" id="mypage" ng-controller="mainController">
+
+    <nav id="mykdr_nav">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}}></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-snowflake-o"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="fa fa-spinner"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="col-md-12" id="non-nav" ng-controller="mainController">
+
+        <img src="./images/letters/cover/58.jpg" class="pagebanner" />
+
+        <div class="col-md-12" id="content">
+
+            <div class="col-md-2" id="adslot1_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+            <div class="col-md-8" id="maincontent">
+
+                <div class="col-md-12">
+                    <h1 style="text-align: center;border-bottom: none; color:darkred" >TURNING THE TIDES</h1>
+                    <br />
+                    <p>Honey...</p>
+                    <p>Everytime when everything we want seems to be happening and all going well, suddenly something happens and turns it all around and collapses the whole thing. We have told that to each other. That is how the pattern of our lives was, until we met each other...</p>
+                    <p>But now, we have that grit, that sheer will and positivity and hope... and on top of it, this strongest love and happiness to live for... of that lovely long life together... to not let that collapse happen again...</p>
+                    <p>Until new year... we were so positive about eventually being together and marrying because we knew that was the best thing to do and thats what our hearts said and then, suddenly this happened and is trying to disturb all of that...</p>
+                    <p>Lets not give it up to that this time honey... Lets turn the tides around... This is that moment and chance where we can show that our lives have changed for good... until we show that to ourselves, its all the same again... so lets fight it out of our lives honey... and lets do that together to be together...</p>
+                    <p>All is well my love...</p>
+                    <p>I Love You❤</p>
+                </div>
+
+            </div>
+
+            <div class="col-md-12" id="adslot1_mob">
+                <img style="width: 100%; margin: auto" src={{dataSelected.mainData.strips.jetaimemob}} />
+                <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+            </div>
+
+            <div class="col-md-2" id="adslot2_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-12" id="footer" ng-controller="mainController">
+            <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+        </div>
+    </div>
+</div>
