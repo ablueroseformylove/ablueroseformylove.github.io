@@ -1,0 +1,82 @@
+<div class="col-md-12 ng-scope" id="mypage" ng-controller="mainController">
+
+    <nav id="mykdr_nav">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}}></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-snowflake-o"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="fa fa-spinner"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="col-md-12" id="non-nav" ng-controller="mainController">
+
+        <img src="./images/letters/cover/54.jpg" class="pagebanner" />
+
+        <div class="col-md-12" id="content">
+
+            <div class="col-md-2" id="adslot1_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+            <div class="col-md-8" id="maincontent">
+
+                <div class="col-md-12">
+                    <h1 style="text-align: center;border-bottom: none; color:darkred" >EVERY NIGHT</h1>
+                    <br />
+                    <p>Honey...</p>
+                    <p>We didnt say goodnight today... hope youre okay babe... see you... miss youso much... love you most honey...💋❤</p>
+                    <p>However much i try to be okay... im scared honey... im scared of being left behind alone... i m just waiting for talking to you honey... please dont do this to me... its so scary my love...</p>
+                    <p>I just stopped dinner midway... i cant take it honey... its so burning me inside... im choosing to trust whatever you say... and everytime later when i get to know that you lied to me, i just cry so hard and get depressed...</p>
+                    <p>Honey... i love you most in this world...</p>
+                    <p>And i still trust you for every word you say...</p>
+                    <p>Because i love you that much...</p>
+                    <p>Honey... every night before you slept... you used to say you were so afraid... that the bed will eat you... i said i will be with you always and never leave you ever... and you slept with that happy secured feeling...</p>
+                    <p>Honey... im afraid now... im so afraid... im sweating in this cold room...</p>
+                    <p>honey... i miss you so much... please dont do this honey... i love you... i love you most... and i miss you so much my love... im so afraid...</p>
+                    <p>Honey... only reason i choose not to come there is because you told me not to and i promised you i wont until you say so...</p>
+                    <p>You love me right???</p>
+                    <p>Please tell me honey...</p>
+                    <p>Because you are my world...</p>
+                    <p>I love you❤</p>
+                    <p>Please reply when you see honey...</p>
+                    <p>I miss you...</p>
+                    <p>Take care...</p>
+                    <p>All is well...</p>
+                    <p>I love you❤</p>
+                </div>
+
+
+            </div>
+
+            <div class="col-md-12" id="adslot1_mob">
+                <img style="width: 100%; margin: auto" src={{dataSelected.mainData.strips.jetaimemob}} />
+                <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+            </div>
+
+            <div class="col-md-2" id="adslot2_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-12" id="footer" ng-controller="mainController">
+
+            <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+
+        </div>
+
+    </div>
+
+</div>
