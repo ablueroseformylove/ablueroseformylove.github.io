@@ -1,0 +1,79 @@
+<div class="col-md-12 ng-scope" id="mypage" ng-controller="mainController">
+
+    <nav id="mykdr_nav">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#theme"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}}></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-snowflake-o"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="fa fa-spinner"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="col-md-12" id="non-nav" ng-controller="mainController">
+
+        <img src="./images/poetry/cover/11.jpg" class="pagebanner" />
+
+        <div class="col-md-12" id="content">
+
+            <div class="col-md-2" id="adslot1_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+            <div class="col-md-8" id="maincontent">
+
+                <div class="col-md-12">
+
+                    <h1 style="text-align: center;border-bottom: none; color:darkred" >THIS LOVE</h1>
+                    <br />
+                    <p>Why does my heart flutter when everytime i miss you for little long...</p>
+                    <p>Why does my head shiver inside when i dont hear from you for a while...</p>
+                    <p>Why does my voice quiver as i talk when my mind starts to think of you...</p>
+                    <p>And why does my mind fear when each time my phone buzzes and its not you...</p>
+                    <br />
+                    <p>These times are being hard for me as days drag along with less of you...</p>
+                    <p>The pain and sadness of missing you makes me fear and not know what to do...</p>
+                    <p>All my love and happiness rests on nowhere else but just on you...</p>
+                    <p>And It takes me to the top of the world when everytime i get to be with you...</p>
+                    <br />
+                    <p>I love you like i loved no one else since the very first day that i met you...</p>
+                    <p>And the depth and truth and measure of it stays in the hearts of just me and you...</p>
+                    <p>All of this turned both our lives around from the barren to the green...</p>
+                    <p>And all of this will have a meaning when finally we love, laugh and live...</p>
+                    <br />
+                    <p>I Love You❤</p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-12" id="adslot1_mob">
+                <img style="width: 100%; margin: auto" src={{dataSelected.mainData.strips.jetaimemob}} />
+                <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+            </div>
+
+            <div class="col-md-2" id="adslot2_pc">
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+                <div></div>
+            </div>
+
+
+        </div>
+
+        <div class="col-md-12" id="footer" ng-controller="mainController">
+
+            <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+
+        </div>
+
+    </div>
+
+</div>
