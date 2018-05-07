@@ -10,7 +10,7 @@ var bluerose = angular.module('bluerose', ['ngRoute']);
 bluerose.config(function($routeProvider) {
     $routeProvider
 
-    // route for the theme page
+        // route for the login page
         .when('/', {
             title : "Log In To Continue",
             description : "",
@@ -1455,37 +1455,37 @@ bluerose.controller('mainController', function($rootScope, $scope) {
     };
 
 
-    $rootScope.logId = function() {
-
-        var c = $scope.user + $scope.pwd;
-
-        if(c===$rootScope.credentials) {
-
-        $rootScope.valid = true;
-        // alert($rootScope.valid);
-
-            var x= document.getElementById("redirect");
-            x.style.display="block";
-        }
-        else {
-
-            $rootScope.valid = false;
-            // alert($rootScope.valid);
-
-            var z= document.getElementById("login");
-            z.style.display="none";
-            var x= document.getElementById("incorrect");
-            x.style.display="block";
-        }
-    };
-
-    $rootScope.tryAgain = function() {
-
-        var z= document.getElementById("incorrect");
-        z.style.display="none";
-        var x= document.getElementById("login");
-        x.style.display="block";
-    };
+    // $rootScope.logId = function() {
+    //
+    //     var c = $scope.user + $scope.pwd;
+    //
+    //     if(c===$rootScope.credentials) {
+    //
+    //     $rootScope.valid = true;
+    //     // alert($rootScope.valid);
+    //
+    //         var x= document.getElementById("redirect");
+    //         x.style.display="block";
+    //     }
+    //     else {
+    //
+    //         $rootScope.valid = false;
+    //         // alert($rootScope.valid);
+    //
+    //         var z= document.getElementById("login");
+    //         z.style.display="none";
+    //         var x= document.getElementById("incorrect");
+    //         x.style.display="block";
+    //     }
+    // };
+    //
+    // $rootScope.tryAgain = function() {
+    //
+    //     var z= document.getElementById("incorrect");
+    //     z.style.display="none";
+    //     var x= document.getElementById("login");
+    //     x.style.display="block";
+    // };
 
 
 });
