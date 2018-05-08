@@ -11,7 +11,7 @@
 }
 
 #redirect {
-    display: none;
+    display: block;
 }
 
 #incorrect {
